@@ -10,7 +10,7 @@ const pkg = JSON.parse(
 
 export default defineConfig(() => ({
    plugins: [tailwindcss(), react()],
-   base: "/devfolio/",
+   base: "/odin-valhalla/",
    // Build stamp shown in the footer status bar.
    define: {
       "import.meta.env.APP_VERSION": JSON.stringify(pkg.version),

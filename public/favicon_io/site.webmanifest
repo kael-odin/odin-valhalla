@@ -1,10 +1,10 @@
 {
-   "id": "/devfolio/",
+   "id": "/odin-valhalla/",
    "name": "Your Name Portfolio",
    "short_name": "Your Name",
    "description": "Portfolio of Your Name.",
-   "start_url": "/devfolio/",
-   "scope": "/devfolio/",
+   "start_url": "/odin-valhalla/",
+   "scope": "/odin-valhalla/",
    "display": "standalone",
    "background_color": "#0b1012",
    "theme_color": "#0b1012",

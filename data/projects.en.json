@@ -97,7 +97,7 @@
    "community_projects": [
       {
          "id": 6,
-         "title": "my-os-homepage · OS-style homepage template",
+         "title": "odin-heim · OS-style homepage template",
          "description": "An interactive OS-inspired personal homepage template: terminal boot into your digital desktop. Edit one config file to make it yours. React plus Vite plus GitHub Pages.",
          "date": "Sep 2026",
          "tools_tech": ["React", "Vite", "CSS animation", "GitHub Pages"],
@@ -107,8 +107,8 @@
             "Single-file config, works out of the box",
             "Bilingual README with screenshots"
          ],
-         "github": "https://github.com/kael-odin/my-os-homepage",
-         "live": "https://kael-odin.github.io/my-os-homepage/"
+         "github": "https://github.com/kael-odin/odin-heim",
+         "live": "https://kael-odin.github.io/odin-heim/"
       }
    ],
    "open_source_contributions": [

@@ -1,15 +1,15 @@
 # Devfolio — Developer Portfolio Template
 
-> **中文**：深色开发者作品集模板（React + Vite + Tailwind），默认中文、右下角可切英文。内容在 `data/*.zh.json`（中文）/ `data/*.en.json`（英文），界面文案在 `src/i18n/`。在线演示：<https://kael-odin.github.io/devfolio/>（本站点本身就是用 Kael Odin 真实信息打磨的活示例）。
+> **中文**：深色开发者作品集模板（React + Vite + Tailwind），默认中文、右下角可切英文。内容在 `data/*.zh.json`（中文）/ `data/*.en.json`（英文），界面文案在 `src/i18n/`。在线演示：<https://kael-odin.github.io/odin-valhalla/>（本站点本身就是用 Kael Odin 真实信息打磨的活示例）。
 >
-> **English**: A dark developer portfolio template (React + Vite + Tailwind), Chinese by default with an EN toggle at the bottom-right. Content lives in `data/*.zh.json` (Chinese) / `data/*.en.json` (English); UI copy in `src/i18n/`. Live demo: <https://kael-odin.github.io/devfolio/> (this site itself, filled with Kael Odin's real info).
+> **English**: A dark developer portfolio template (React + Vite + Tailwind), Chinese by default with an EN toggle at the bottom-right. Content lives in `data/*.zh.json` (Chinese) / `data/*.en.json` (English); UI copy in `src/i18n/`. Live demo: <https://kael-odin.github.io/odin-valhalla/> (this site itself, filled with Kael Odin's real info).
 
-![GitHub stars](https://img.shields.io/github/stars/your-github-username/devfolio?style=flat-square&cacheSeconds=86400)
-![GitHub forks](https://img.shields.io/github/forks/your-github-username/devfolio?style=flat-square&cacheSeconds=86400)
+![GitHub stars](https://img.shields.io/github/stars/kael-odin/odin-valhalla?style=flat-square&cacheSeconds=86400)
+![GitHub forks](https://img.shields.io/github/forks/kael-odin/odin-valhalla?style=flat-square&cacheSeconds=86400)
 ![License](https://img.shields.io/badge/License-GPL--3.0-blue?style=flat-square)
-![Last Commit](https://img.shields.io/github/last-commit/your-github-username/devfolio?style=flat-square&cacheSeconds=86400)
+![Last Commit](https://img.shields.io/github/last-commit/kael-odin/odin-valhalla?style=flat-square&cacheSeconds=86400)
 
-[![CI/CD Pipeline](https://github.com/your-github-username/devfolio/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/your-github-username/devfolio/actions/workflows/ci-cd.yml)
+[![CI/CD Pipeline](https://github.com/kael-odin/odin-valhalla/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/kael-odin/odin-valhalla/actions/workflows/ci-cd.yml)
 
 ![React Version](https://img.shields.io/badge/react-19-blue)
 ![TypeScript](https://img.shields.io/badge/typescript-strict-3178c6)
@@ -18,7 +18,7 @@
 ![Tests](https://img.shields.io/badge/tests-22%20passing-22c55e)
 ![Version](https://img.shields.io/badge/version-1.0.0-2563eb)
 
-**Live demo:** `https://your-github-username.github.io/devfolio/` (deploy with the included CI workflow)
+**Live demo:** `https://kael-odin.github.io/odin-valhalla/` (deploy with the included CI workflow)
 
 ---
 
@@ -82,8 +82,8 @@ Section links support reloads and browser history. Navigation loads the content 
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-github-username/devfolio.git
-cd devfolio
+git clone https://github.com/kael-odin/odin-valhalla.git
+cd odin-valhalla
 
 # Install dependencies (requires pnpm >=11, Node >=24.11)
 pnpm install

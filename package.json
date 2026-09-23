@@ -1,9 +1,9 @@
 {
-   "name": "devfolio",
+   "name": "odin-valhalla",
    "version": "1.0.0",
    "type": "module",
    "private": true,
-   "homepage": "https://your-github-username.github.io/devfolio/",
+   "homepage": "https://kael-odin.github.io/odin-valhalla/",
    "scripts": {
       "dev": "vite",
       "prebuild": "pnpm validate:data",
@@ -74,11 +74,11 @@
    "description": "A developer portfolio template: React + Vite + Tailwind. Edit data/*.json to make it yours.",
    "repository": {
       "type": "git",
-      "url": "git+https://github.com/your-github-username/devfolio.git"
+      "url": "git+https://github.com/kael-odin/odin-valhalla.git"
    },
    "author": "Your Name",
    "license": "GPL-3.0",
    "bugs": {
-      "url": "https://github.com/your-github-username/devfolio/issues"
+      "url": "https://github.com/kael-odin/odin-valhalla/issues"
    }
 }

@@ -11,7 +11,7 @@ pnpm install --frozen-lockfile
 pnpm dev
 ```
 
-Open [localhost:3000/devfolio/](http://localhost:3000/devfolio/). The `/devfolio/` base path is intentional and is also used by GitHub Pages.
+Open [localhost:3000/odin-valhalla/](http://localhost:3000/odin-valhalla/). The `/odin-valhalla/` base path is intentional and is also used by GitHub Pages.
 
 Environment variables are optional. To disable analytics locally, copy [.env.example](.env.example) to `.env.local` and set `VITE_ANALYTICS_ENABLED=false`. The site is a client application: keep secrets out of JSON content and `VITE_*` variables.
 
@@ -144,4 +144,4 @@ Before opening a pull request, describe what changed and how you checked it usin
 
 Use `pnpm fetch:resume` when working on the CV viewer locally; it needs network access. Normal application development and pull request builds do not require fetching the resume. See [scripts/prepare-resume.js](scripts/prepare-resume.js) for that pipeline.
 
-[CI](.github/workflows/ci-cd.yml) runs the code and data checks for pull requests. Verified builds from `main` fetch the resume and deploy to GitHub Pages. Keep Vite's `/devfolio/` base path and `build/` output aligned with that workflow.
+[CI](.github/workflows/ci-cd.yml) runs the code and data checks for pull requests. Verified builds from `main` fetch the resume and deploy to GitHub Pages. Keep Vite's `/odin-valhalla/` base path and `build/` output aligned with that workflow.

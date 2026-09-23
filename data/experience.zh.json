@@ -54,12 +54,12 @@
          "date": "2026-03 - 至今",
          "title": "个人博客与数字花园主理人",
          "position": "持续维护",
-         "company": "kael-odin-blog",
+         "company": "odin-saga",
          "location": "中国 · 远程",
          "summary": "基于 Next.js 的个人博客：技术、项目、随笔记录，支持 GitHub App 在网页前端可视化编辑内容。",
          "projects": [
             {
-               "name": "kael-odin-blog · 可视化编辑的博客",
+               "name": "odin-saga · 可视化编辑的博客",
                "date": "2026-03 - 至今",
                "description": {
                   "1": "Next.js App Router 搭建，文章、站点配置、图片都可以在网页前端可视化编辑，背后是 GitHub App 流水线。",
