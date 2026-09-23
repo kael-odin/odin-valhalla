@@ -10,7 +10,10 @@ const pkg = JSON.parse(
 
 export default defineConfig(() => ({
    plugins: [tailwindcss(), react()],
-   base: "/odin-valhalla/",
+   // GitHub Pages 项目页按仓库名取子路径；Vercel/本地为根路径
+   base: process.env.GITHUB_REPOSITORY
+      ? `/${process.env.GITHUB_REPOSITORY.split("/")[1]}/`
+      : "/",
    // Build stamp shown in the footer status bar.
    define: {
       "import.meta.env.APP_VERSION": JSON.stringify(pkg.version),
