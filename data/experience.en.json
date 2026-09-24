@@ -16,13 +16,7 @@
                   "1": "Designed IP connectivity/latency, session persistence & rotation, scraping success rate & delivery accuracy, HTTP(S)/SOCKS5 multi-protocol test suites.",
                   "2": "Combined API testing (Postman + traffic analysis), Playwright UI automation and SQL data validation; 300+ defects found and driven to fix."
                },
-               "skills": [
-                  "Playwright",
-                  "Postman",
-                  "Python",
-                  "SQL",
-                  "Charles"
-               ],
+               "skills": ["Playwright", "Postman", "Python", "SQL", "Charles"],
                "link": "",
                "linkLabel": ""
             },
@@ -44,13 +38,7 @@
                "linkLabel": ""
             }
          ],
-         "skills": [
-            "Playwright",
-            "Postman",
-            "Python",
-            "SQL",
-            "Charles"
-         ]
+         "skills": ["Playwright", "Postman", "Python", "SQL", "Charles"]
       },
       {
          "id": 2,
@@ -68,11 +56,7 @@
                   "1": "Coded and tested the user info module (Java: registration/login/user management); joined requirement analysis and bug-fix verification.",
                   "2": "My first real engineering practice: moving real business workflows into a system."
                },
-               "skills": [
-                  "Java",
-                  "MySQL",
-                  "需求分析"
-               ],
+               "skills": ["Java", "MySQL", "需求分析"],
                "link": "",
                "linkLabel": ""
             }
@@ -94,11 +78,7 @@
                   "1": "面向中文用户的学术论文与科研 Agent Skill 排行榜：自动搜索、过滤并排名 GitHub 上的 Claude Code / Codex / OpenCode 科研 Skill。",
                   "2": "从选题、榜单流水线到中文呈现全链路自研，每日自动更新。"
                },
-               "skills": [
-                  "JavaScript",
-                  "GitHub Actions",
-                  "自动化榜单"
-               ],
+               "skills": ["JavaScript", "GitHub Actions", "自动化榜单"],
                "link": "https://github.com/kael-odin/awesome-academic-research-skills",
                "linkLabel": "仓库"
             },
@@ -109,11 +89,7 @@
                   "1": "prompts.chat 的非官方简体中文镜像：2205 条公开提示词全部译成中文，中英对照、全文搜索、一键复制。",
                   "2": "Astro 静态站 + 增量翻译流水线，部署在 GitHub Pages。"
                },
-               "skills": [
-                  "Astro",
-                  "i18n",
-                  "GitHub Pages"
-               ],
+               "skills": ["Astro", "i18n", "GitHub Pages"],
                "link": "https://github.com/kael-odin/prompts-chat-zh",
                "linkLabel": "仓库"
             }
@@ -133,11 +109,7 @@
          },
          "link": "",
          "linkLabel": "",
-         "skills": [
-            "Teaching ops",
-            "Enrollment",
-            "WeChat Mini Program"
-         ],
+         "skills": ["Teaching ops", "Enrollment", "WeChat Mini Program"],
          "company": "K-12 tutoring (partner locations)",
          "location": "Hangzhou / Nanjing / Zhenjiang",
          "summary": "Started the tutoring business while in school and went full-time after graduation; 100+ students taught, operations run on a self-built WeChat Mini Program."

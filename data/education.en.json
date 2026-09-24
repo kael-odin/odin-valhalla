@@ -11,12 +11,7 @@
          "Outstanding Course Practice Award (2023-2024)",
          "Capstone: ML-based campus smart navigation (data collection & frontend integration)"
       ],
-      "skills": [
-         "Python",
-         "Machine Learning",
-         "SQL",
-         "HTML/CSS/JS"
-      ]
+      "skills": ["Python", "Machine Learning", "SQL", "HTML/CSS/JS"]
    },
    {
       "id": 2,
@@ -26,11 +21,7 @@
       "department": "\"Outstanding New Student Adaptation\" award; left and re-took the Gaokao",
       "location": "Hangzhou, Zhejiang, China",
       "cgpa": "",
-      "achievements": [
-         "Gaokao 660/750 (rank 1609 province-wide)"
-      ],
-      "skills": [
-         "Math & Physics"
-      ]
+      "achievements": ["Gaokao 660/750 (rank 1609 province-wide)"],
+      "skills": ["Math & Physics"]
    }
 ]

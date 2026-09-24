@@ -16,13 +16,7 @@
                   "1": "设计 IP 连通率与响应延迟、会话保持与轮换正确性、采集任务成功率与数据交付准确性、HTTP(S)/SOCKS5 多协议兼容等专项测试。",
                   "2": "结合接口测试（Postman + 抓包分析）、Web UI 自动化（Playwright + pytest）与 SQL 数据核对，沉淀可复用用例与脚本，累计发现并推动修复缺陷 300+。"
                },
-               "skills": [
-                  "Playwright",
-                  "Postman",
-                  "Python",
-                  "SQL",
-                  "Charles"
-               ],
+               "skills": ["Playwright", "Postman", "Python", "SQL", "Charles"],
                "link": "",
                "linkLabel": ""
             },
@@ -61,11 +55,7 @@
                   "1": "完成用户信息管理模块（Java：注册/登录/用户管理）的编码与测试，并参与需求分析、bug 修复验证。",
                   "2": "这是从「会用」到「会做」的第一段工程实践：把教培业务里的真实流程搬进系统。"
                },
-               "skills": [
-                  "Java",
-                  "MySQL",
-                  "需求分析"
-               ],
+               "skills": ["Java", "MySQL", "需求分析"],
                "link": "",
                "linkLabel": ""
             }
@@ -87,11 +77,7 @@
                   "1": "面向中文用户的学术论文与科研 Agent Skill 排行榜：自动搜索、过滤并排名 GitHub 上的 Claude Code / Codex / OpenCode 科研 Skill。",
                   "2": "从选题、榜单流水线到中文呈现全链路自研，每日自动更新。"
                },
-               "skills": [
-                  "JavaScript",
-                  "GitHub Actions",
-                  "自动化榜单"
-               ],
+               "skills": ["JavaScript", "GitHub Actions", "自动化榜单"],
                "link": "https://github.com/kael-odin/awesome-academic-research-skills",
                "linkLabel": "仓库"
             },
@@ -102,11 +88,7 @@
                   "1": "prompts.chat 的非官方简体中文镜像：2205 条公开提示词全部译成中文，中英对照、全文搜索、一键复制。",
                   "2": "Astro 静态站 + 增量翻译流水线，部署在 GitHub Pages。"
                },
-               "skills": [
-                  "Astro",
-                  "i18n",
-                  "GitHub Pages"
-               ],
+               "skills": ["Astro", "i18n", "GitHub Pages"],
                "link": "https://github.com/kael-odin/prompts-chat-zh",
                "linkLabel": "仓库"
             }
@@ -122,11 +104,7 @@
          "org": "初高中课外辅导（杭州 / 南京 / 镇江）",
          "link": "",
          "linkLabel": "",
-         "skills": [
-            "教学运营",
-            "招生管理",
-            "微信小程序"
-         ],
+         "skills": ["教学运营", "招生管理", "微信小程序"],
          "company": "初高中课外辅导（合作网点）",
          "location": "杭州 / 南京 / 镇江",
          "description": {
