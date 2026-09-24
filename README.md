@@ -15,10 +15,10 @@
 
 一个深色开发者作品集模板（React 19 + Vite 8 + Tailwind CSS v4）：近黑画布、单一蓝色强调族、极简描边卡片、极光氛围背景。**默认中文、右下角一键切英文**，本站本身就是用 Kael Odin 真实信息打磨的活示例。衍生自 [Sagargupta16/portfolio-react](https://github.com/Sagargupta16/portfolio-react)（GPL-3.0），已去个性化为占位模板——改 `data/*.json` 就能变成你的。
 
-| Hero（中文） | Projects（English） |
-| --- | --- |
-| ![Hero](docs/screenshot-hero.png) | ![Projects EN](docs/screenshot-projects-en.png) |
-| **在线简历预览** | **AI 分身** |
+| Hero（中文）                          | Projects（English）                               |
+| ------------------------------------- | ------------------------------------------------- |
+| ![Hero](docs/screenshot-hero.png)     | ![Projects EN](docs/screenshot-projects-en.png)   |
+| **在线简历预览**                      | **AI 分身**                                       |
 | ![Resume](docs/screenshot-resume.png) | ![AI Assistant](docs/screenshot-ai-assistant.png) |
 
 ## 🌟 亮点
@@ -57,13 +57,13 @@ pnpm build          # 校验数据 + 构建到 build/
 
 ## 🧭 Odin 系列
 
-| 符 | 仓库 | 定位 | 访问 |
-| --- | --- | --- | --- |
-| 🌈 | [odin-bifrost](https://github.com/kael-odin/odin-bifrost) | 个人作品集主站（Next.js Bento） | [live](https://kael-odin.github.io/odin-bifrost/) |
-| ⚡ | **odin-valhalla** | 深色作品集模板（React + Vite） | 这里 |
-| 🗿 | [odin-runestone](https://github.com/kael-odin/odin-runestone) | 双语作品集模板（Vite + GSAP） | [live](https://kael-odin.github.io/odin-runestone/) |
-| 📜 | [odin-saga](https://github.com/kael-odin/odin-saga) | 博客与数字花园（Next.js） | [live](https://odin-saga.vercel.app/) |
-| 🏠 | [odin-heim](https://github.com/kael-odin/odin-heim) | OS 风互动主页模板（Vite） | [live](https://kael-odin.github.io/odin-heim/) |
+| 符  | 仓库                                                          | 定位                            | 访问                                                |
+| --- | ------------------------------------------------------------- | ------------------------------- | --------------------------------------------------- |
+| 🌈  | [odin-bifrost](https://github.com/kael-odin/odin-bifrost)     | 个人作品集主站（Next.js Bento） | [live](https://kael-odin.github.io/odin-bifrost/)   |
+| ⚡  | **odin-valhalla**                                             | 深色作品集模板（React + Vite）  | 这里                                                |
+| 🗿  | [odin-runestone](https://github.com/kael-odin/odin-runestone) | 双语作品集模板（Vite + GSAP）   | [live](https://kael-odin.github.io/odin-runestone/) |
+| 📜  | [odin-saga](https://github.com/kael-odin/odin-saga)           | 博客与数字花园（Next.js）       | [live](https://odin-saga.vercel.app/)               |
+| 🏠  | [odin-heim](https://github.com/kael-odin/odin-heim)           | OS 风互动主页模板（Vite）       | [live](https://kael-odin.github.io/odin-heim/)      |
 
 > 同一套北欧神话命名 `odin-<词根>`，词根即职能：彩虹桥是入口，英灵殿陈列功绩，卢恩石碑刻生平，萨迦记事，heim 是家。
 
