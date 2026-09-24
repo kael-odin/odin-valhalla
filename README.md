@@ -1,247 +1,76 @@
-# Devfolio — Developer Portfolio Template
+<p align="center">
+  <img src="./assets/readme/hero.svg" width="100%" alt="ODIN VALHALLA —— 英灵殿·深色作品集模板，改 data/*.json 即用">
+</p>
 
-> **中文**：深色开发者作品集模板（React + Vite + Tailwind），默认中文、右下角可切英文。内容在 `data/*.zh.json`（中文）/ `data/*.en.json`（英文），界面文案在 `src/i18n/`。在线演示：<https://kael-odin.github.io/odin-valhalla/>（本站点本身就是用 Kael Odin 真实信息打磨的活示例）。
->
-> **English**: A dark developer portfolio template (React + Vite + Tailwind), Chinese by default with an EN toggle at the bottom-right. Content lives in `data/*.zh.json` (Chinese) / `data/*.en.json` (English); UI copy in `src/i18n/`. Live demo: <https://kael-odin.github.io/odin-valhalla/> (this site itself, filled with Kael Odin's real info).
+<p align="center">
+  <a href="https://kael-odin.github.io/odin-valhalla/"><img src="https://img.shields.io/badge/%E5%9C%A8%E7%BA%BF%E6%BC%94%E7%A4%BA-kael--odin.github.io-FBBF24?style=flat-square" alt="在线演示"></a>
+  <a href="https://github.com/kael-odin/odin-valhalla/actions/workflows/ci-cd.yml"><img src="https://github.com/kael-odin/odin-valhalla/actions/workflows/ci-cd.yml/badge.svg?style=flat-square" alt="CI/CD"></a>
+  <img src="https://img.shields.io/badge/License-GPL--3.0-blue?style=flat-square" alt="GPL-3.0">
+  <img src="https://img.shields.io/badge/React-19-087ea4?style=flat-square" alt="React 19">
+  <img src="https://img.shields.io/badge/Vite-8-purple?style=flat-square" alt="Vite 8">
+  <img src="https://img.shields.io/badge/tests-22%20passing-22c55e?style=flat-square" alt="22 tests passing">
+</p>
 
-![GitHub stars](https://img.shields.io/github/stars/kael-odin/odin-valhalla?style=flat-square&cacheSeconds=86400)
-![GitHub forks](https://img.shields.io/github/forks/kael-odin/odin-valhalla?style=flat-square&cacheSeconds=86400)
-![License](https://img.shields.io/badge/License-GPL--3.0-blue?style=flat-square)
-![Last Commit](https://img.shields.io/github/last-commit/kael-odin/odin-valhalla?style=flat-square&cacheSeconds=86400)
+## ✨ 这是什么
 
-[![CI/CD Pipeline](https://github.com/kael-odin/odin-valhalla/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/kael-odin/odin-valhalla/actions/workflows/ci-cd.yml)
+一个深色开发者作品集模板（React 19 + Vite 8 + Tailwind CSS v4）：近黑画布、单一蓝色强调族、极简描边卡片、极光氛围背景。**默认中文、右下角一键切英文**，本站本身就是用 Kael Odin 真实信息打磨的活示例。衍生自 [Sagargupta16/portfolio-react](https://github.com/Sagargupta16/portfolio-react)（GPL-3.0），已去个性化为占位模板——改 `data/*.json` 就能变成你的。
 
-![React Version](https://img.shields.io/badge/react-19-blue)
-![TypeScript](https://img.shields.io/badge/typescript-strict-3178c6)
-![Vite Version](https://img.shields.io/badge/vite-8-purple)
-![Tailwind CSS](https://img.shields.io/badge/tailwindcss-v4-06b6d4)
-![Tests](https://img.shields.io/badge/tests-22%20passing-22c55e)
-![Version](https://img.shields.io/badge/version-1.0.0-2563eb)
-
-**Live demo:** `https://kael-odin.github.io/odin-valhalla/` (deploy with the included CI workflow)
-
----
-
-## About
-
-> Template note: this is a de-personalized, placeholder-filled adaptation of [Sagargupta16/portfolio-react](https://github.com/Sagargupta16/portfolio-react) (GPL-3.0). All names, photos, resumes, badges, and project content were replaced with placeholders — edit `data/*.json` to make it yours. See [LICENSE](LICENSE).
-
-| Hero （中文）                         | Projects (English)                                |
-| ------------------------------------- | ------------------------------------------------- |
-| ![Hero](docs/screenshot-hero.png)     | ![Projects EN](docs/screenshot-projects-en.png)   |
-| 在线简历（新）                        | AI 分身（新）                                     |
+| Hero（中文） | Projects（English） |
+| --- | --- |
+| ![Hero](docs/screenshot-hero.png) | ![Projects EN](docs/screenshot-projects-en.png) |
+| **在线简历预览** | **AI 分身** |
 | ![Resume](docs/screenshot-resume.png) | ![AI Assistant](docs/screenshot-ai-assistant.png) |
 
-A minimal dark personal portfolio: near-black canvas, one blue accent family, flat bordered cards, and an ambient aurora-and-beams background. Project cards carry live screenshots of deployed sites and animated SVG cover scenes for everything else. Built as a single-page scroll application with strict TypeScript, sections loaded near the viewport, data validation, and a persisted Full/Reduced motion preference.
+## 🌟 亮点
 
-Section links support reloads and browser history. Navigation loads the content before scrolling to its destination, while motion changes preserve form drafts, project filters, and keyboard focus.
+- **双语数据驱动**：内容在 `data/*.zh.json` / `data/*.en.json`（校验器强制中英 id 集合一致），界面文案在 `src/i18n/`
+- **在线简历预览**：首屏「查看简历」弹窗内嵌金山文档 / WPS 分享链接，完整查看器站内可用
+- **AI 分身**：右下角悬浮聊天窗，接你自己的 OpenAI 兼容网关；密钥只放后端（Vercel Serverless `api/chat.js` 已内置），未配置时给出明确指引不静默失败
+- **动效可访问**：Full / Reduced 动效偏好持久化，切换时保留草稿、筛选与焦点
+- **质量守门**：strict TypeScript + 22 个 Vitest 测试 + JSON schema 校验 + 零警告 ESLint，CI 全部强制
 
-### 🆕 在线简历预览 & AI 分身（借鉴 [vienne-ai-site](https://github.com/vienne53/vienne-ai-site)）
-
-- **WPS 文档在线预览**：首屏「查看简历」弹窗内嵌金山文档（kdocs.cn）/ WPS 分享链接，完整 WPS 查看器（缩略图 / 缩放 / 工具栏）直接在站内可用。链接在 `data/resume.*.json` 的 `resume.online_url` 配置；`resume.pdf_url` 填了才会显示「下载简历」按钮。
-- **AI 分身（在线客服）**：右下角悬浮聊天窗，接你自己的模型网关（OpenAI 兼容 / 火山方舟 / 只收 `{message}` 的自定义网关均可）。密钥只放在后端：本地用 `pnpm chat-proxy`，公开部署用 `api/chat.js`（Vercel 模板）+ 环境变量。详见 [`docs/AI助手接入说明.md`](docs/AI助手接入说明.md)。未配置后端时窗口会给出明确的配置指引，不会静默失败。
-- **生产启用 AI 分身**：站点在 GitHub Pages（纯静态）托管，聊天后端需单独部署——把本仓库导入 Vercel（只部署 `api/`，忽略前端），然后把部署地址（如 `https://your-app.vercel.app/api/chat`）配置为仓库变量 `VITE_CHAT_API_URL`，CI 构建时会自动注入。
-
----
-
-## Tech Stack
-
-| Category          | Technologies                                               |
-| ----------------- | ---------------------------------------------------------- |
-| **Core**          | React 19, TypeScript 7, Vite 8 (Rolldown), Tailwind CSS v4 |
-| **Animations**    | Motion (Framer Motion)                                     |
-| **Fonts**         | Inter Variable, JetBrains Mono (self-hosted)               |
-| **Smooth Scroll** | Lenis (ReactLenis)                                         |
-| **Icons**         | Lucide React, React Icons                                  |
-| **Contact**       | EmailJS                                                    |
-| **GitHub**        | react-github-calendar                                      |
-| **Testing**       | Vitest 5, React Testing Library                            |
-| **Code Quality**  | ESLint 10, typescript-eslint, jsx-a11y-x, Prettier         |
-| **Deployment**    | GitHub Actions, GitHub Pages                               |
-
----
-
-## Sections
-
-| Section          | Features                                                                                               |
-| ---------------- | ------------------------------------------------------------------------------------------------------ |
-| **Hero**         | Logo tile, status badge, data-driven introduction, latest project and upstream contribution            |
-| **About**        | Character reveal, highlight cards, quick-facts band                                                    |
-| **Experience**   | Timeline with explicit detail controls, project evidence, internal contributions, and responsibilities |
-| **Education**    | Academic timeline with CGPA counters and accessible achievement disclosures                            |
-| **Skills**       | Brand-icon rows under dashed category rules (96 skills, official brand colors)                         |
-| **Projects**     | Filterable card grid with screenshots/static-or-animated covers, detail modal, and OSS banner          |
-| **Achievements** | Certifications with expiry state (auto-synced from Credly), badges, and competitions                   |
-| **Services**     | Responsive bento grid with optional decorative scenes                                                  |
-| **Stats**        | Derived impact/open-source counters, 3D contribution calendar, and coding profiles                     |
-| **Contact**      | Bounded EmailJS form with inline validation, error toast, and persistent confirmation                  |
-
----
-
-## Getting Started
+## 🚀 快速开始
 
 ```bash
-# Clone the repository
 git clone https://github.com/kael-odin/odin-valhalla.git
 cd odin-valhalla
-
-# Install dependencies (requires pnpm >=11, Node >=24.11)
-pnpm install
-
-# Start dev server (port 3000)
-pnpm dev
-
-# Run tests
-pnpm test
-
-# Production build
-pnpm build
+pnpm install        # 要求 pnpm ≥ 11, Node ≥ 24.11
+pnpm dev            # http://localhost:3000
+pnpm build          # 校验数据 + 构建到 build/
 ```
 
-For a file map, editing recipes, and contribution checks, read the [contributor guide](CONTRIBUTING.md).
+文件地图、编辑配方与贡献检查见 [CONTRIBUTING.md](CONTRIBUTING.md)。
 
-## Scripts
+## 🎨 改成你自己的
 
-| Command              | Description                                    |
-| -------------------- | ---------------------------------------------- |
-| `pnpm dev`           | Start development server                       |
-| `pnpm build`         | Validate data and build to `/build`            |
-| `pnpm preview`       | Preview production build                       |
-| `pnpm test`          | Run 22 focused Vitest tests                    |
-| `pnpm validate:data` | Validate JSON schemas and cross-file rules     |
-| `pnpm lint`          | ESLint app and scripts (zero warnings)         |
-| `pnpm lint:fix`      | ESLint with auto-fix                           |
-| `pnpm format`        | Prettier format all files                      |
-| `pnpm format:check`  | Verify formatting without writing              |
-| `pnpm type-check`    | TypeScript strict-mode checking                |
-| `pnpm check`         | Run format, lint, types, tests, and data gates |
-| `pnpm clean`         | Remove build artifacts and cache               |
+按这个顺序替换 `data/` 下的内容（`pnpm validate:data` 全程把关）：
 
----
+**`personal.*.json`**（名字/社交）→ **`contact.json`**（链接 + EmailJS）→ **`experience.*.json`** → **`projects.*.json`**（+ 封面注册）→ **`achievements.*.json`**（徽章/统计）→ **`services.*.json`** → `src/i18n/` 界面文案 → `index.html`（标题/meta）。
 
-## Project Structure
+## 🤖 启用 AI 分身（生产）
 
-```
-data/                                  # JSON content files (edit these to customize)
-├── personal.json
-├── experience.json
-├── education.json
-├── skills.json
-├── projects.json
-├── achievements.json
-├── services.json
-└── contact.json
-src/
-├── __tests__/                         # Navigation, real form/filter, accessibility, utility, and data tests
-├── assets/projects/                   # 960x600 webp covers captured from live sites
-├── components/
-│   ├── common/                        # ErrorBoundary
-│   ├── layout/
-│   │   ├── AmbientBackground.tsx      # Aurora glows + dot lattice + light beams
-│   │   ├── Header/                    # Hero (split into sub-components)
-│   │   ├── Navigation/                # Nav + DesktopNav + MobileMenu
-│   │   ├── Footer/                    # Footer + SITE/SOCIAL columns
-│   │   ├── DeferredSection.tsx        # Stable anchors + lazy loading/error boundaries
-│   │   └── PageSection.tsx            # Shared section heading and content layout
-│   └── ui/
-│       ├── BrowserMockup.tsx          # 3D tilted browser window (CSS perspective)
-│       ├── CharacterReveal.tsx        # Spring char-by-char animation (word-wrapped)
-│       ├── DevAvatar.tsx              # About avatar: monogram + orbit of real stack glyphs
-│       ├── GlassCard.tsx              # Flat card with optional pointer tilt
-│       ├── MotionPreferenceControl.tsx # Persisted Full/Reduced motion toggle
-│       ├── TechTag.tsx                # Reusable skill/tech tag
-│       └── ...
-├── constants/
-│   ├── sections.ts                    # Section IDs, labels, order, and surfaces
-│   └── theme.ts                       # Centralized colors, fonts, spacing
-├── data/                              # Domain-specific typed JSON accessors
-│   ├── personal.ts
-│   ├── projects.ts
-│   └── ...
-├── hooks/                             # Breakpoint, focus, section-navigation, and motion providers
-├── pages/                             # 9 page sections (each split into sub-files)
-│   ├── about/
-│   ├── experience/
-│   ├── education/
-│   ├── skill/
-│   ├── projects/                      # Projects.tsx, filters, cards, and detail modal
-│   │   └── covers/                    # Cover registry + 14 lazy scene families
-│   ├── achievement/
-│   ├── services/
-│   │   └── animations/                # 7 service card animations on an 80x80 canvas
-│   ├── stats/                         # Stats.tsx, impact figures, and coding profiles
-│   └── contact/
-├── types/
-│   └── index.ts                       # Data contracts
-├── utils/
-│   ├── animations.ts                  # Shared Motion variants
-│   ├── projectMetadata.ts             # Project date parsing and link availability
-│   ├── skillIcons.ts                  # Shared brand/concept icon registry
-│   └── ...                            # Date ranges, social icons, and credential images
-├── App.tsx                            # Stable Lenis root + viewport-deferred section boundaries
-├── index.tsx                          # Entry point
-└── index.css                          # Tailwind theme tokens + component classes
-```
+站点静态托管时聊天后端单独部署：把本仓库导入 Vercel（`api/chat.js` 自动成为 Serverless 函数），环境变量配网关四件套（`OPENCLAW_CHAT_URL` / `OPENCLAW_API_KEY` / `OPENCLAW_MODEL` / `OPENCLAW_MAX_TOKENS`）即可，前端自动走同源 `/api/chat`。详见 [`docs/AI助手接入说明.md`](docs/AI助手接入说明.md)。
+
+## 🌐 部署
+
+推送 `main` 走 GitHub Actions CI/CD 发布到 GitHub Pages（vite base 按仓库名自动注入）。导入 Vercel 同样开箱即用（`vercel.json` 已配好构建与函数）。
+
+## 🧭 Odin 系列
+
+| 符 | 仓库 | 定位 | 访问 |
+| --- | --- | --- | --- |
+| 🌈 | [odin-bifrost](https://github.com/kael-odin/odin-bifrost) | 个人作品集主站（Next.js Bento） | [live](https://kael-odin.github.io/odin-bifrost/) |
+| ⚡ | **odin-valhalla** | 深色作品集模板（React + Vite） | 这里 |
+| 🗿 | [odin-runestone](https://github.com/kael-odin/odin-runestone) | 双语作品集模板（Vite + GSAP） | [live](https://kael-odin.github.io/odin-runestone/) |
+| 📜 | [odin-saga](https://github.com/kael-odin/odin-saga) | 博客与数字花园（Next.js） | [live](https://odin-saga.vercel.app/) |
+| 🏠 | [odin-heim](https://github.com/kael-odin/odin-heim) | OS 风互动主页模板（Vite） | [live](https://kael-odin.github.io/odin-heim/) |
+
+> 同一套北欧神话命名 `odin-<词根>`，词根即职能：彩虹桥是入口，英灵殿陈列功绩，卢恩石碑刻生平，萨迦记事，heim 是家。
+
+## 📄 许可
+
+[GPL-3.0](LICENSE)（继承自原项目 [Sagargupta16/portfolio-react](https://github.com/Sagargupta16/portfolio-react)）。若基于本模板建站，请保留原项目与本仓库的署名。
 
 ---
 
-## Data-Driven Content
-
-All portfolio content lives in JSON files under `data/` at the project root:
-
-| File                | Content                                                                                        |
-| ------------------- | ---------------------------------------------------------------------------------------------- |
-| `personal.json`     | Name, intro, bio, impact, languages, social profiles, site copy                                |
-| `education.json`    | Degrees, institutions, CGPA                                                                    |
-| `experience.json`   | Professional experience + positions of responsibility                                          |
-| `skills.json`       | Categorized skills (6 primary + 3 secondary categories)                                        |
-| `services.json`     | Service offerings                                                                              |
-| `projects.json`     | Featured, collaborative, community, other projects, open source PRs, and community discussions |
-| `achievements.json` | Certifications, badges, competitions, coding stats (auto-synced)                               |
-| `contact.json`      | Contact options + EmailJS config                                                               |
-
-Domain modules under `src/data/` expose typed getters without forcing every JSON file into the initial bundle. `scripts/validate-data.js` enforces required fields, unique IDs and URLs, status/date rules, consistent repository stars, credential fields, and exact project-cover parity. Existing text and metadata can usually be updated in JSON alone. Adding or removing a project also requires a matching cover registration; follow the [project editing recipe](CONTRIBUTING.md#add-or-remove-a-project).
-
-Certifications can be synced from Credly via the `sync-credly.yml` workflow (manual trigger by default; set `CREDLY_USERNAME` and re-enable the schedule to automate). The template ships placeholder badges on the Credly image hosts so validation passes out of the box — replace `badgeId`/`badgeUrl`/`imageUrl` with your real badges.
-
-**What to replace first (checklist):** bilingual content lives in `data/*.zh.json` (Chinese, default) + `data/*.en.json` (English) — keep the `id` sets in sync (`pnpm validate:data` checks this). Order: `data/personal.*.json` (name, role, socials, GitHub username) → `data/contact.json` (links + EmailJS keys; option titles come from `src/i18n/ui.ts`) → `data/experience.*.json` → `data/projects.*.json` (+ covers in `src/pages/projects/covers/coverRegistry.ts`) → `data/achievements.*.json` (badges + coding stats) → `data/services.*.json` → UI copy in `src/i18n/` → `index.html` (title/meta/site URL) → set `RESUME_URL` env for the CV viewer and `CREDLY_USERNAME` for badge sync. The legacy `data/*.json` files are zh mirrors for backward compat; the app reads the `.zh/.en` files.
-
----
-
-## Environment Variables
-
-Copy `.env.example` to `.env.local` only if you want to override the optional analytics toggle:
-
-- `VITE_ANALYTICS_ENABLED` - set to `false` to skip Simple Analytics and Google Analytics
-
-EmailJS browser identifiers are public client configuration and live in `data/contact.json` with the contact content. Never place secrets in client-side Vite variables.
-
-## Motion Preference
-
-The floating control at the bottom-left toggles between two persisted modes: **Full** is the default and enables the complete visual treatment regardless of the OS setting, and **Reduced** disables smooth scrolling and freezes looping/decorative movement while keeping project and service artwork visible.
-
----
-
-## Deployment
-
-Automated via GitHub Actions CI/CD pipeline (all actions pinned to SHA hashes):
-
-1. Install dependencies from the frozen lockfile
-2. Check Prettier formatting
-3. Lint application code and Node scripts with zero warnings
-4. Run strict TypeScript checking
-5. Validate JSON schemas and cross-file invariants
-6. Run all 22 focused tests
-7. Fail on high-severity dependency advisories
-8. Fetch and pre-render the latest resume only for deployment builds
-9. Build and deploy to GitHub Pages only from verified `main` artifacts
-
-Pull requests run every code/data gate and a production build without depending on the external resume release.
-
----
-
----
-
-## License
-
-GPL-3.0 (inherited from the original project) -- see [LICENSE](LICENSE) for details.
+<p align="center"><sub><b>ODIN SERIES</b> · bifrost / valhalla / runestone / saga / heim · crafted by <a href="https://github.com/kael-odin">Kael Odin</a></sub></p>

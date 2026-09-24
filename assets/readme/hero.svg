@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="t d">
+  <title id="t">ODIN VALHALLA</title>
+  <desc id="d">Odin 系列 VALHALLA —— 英灵殿 · 深色作品集模板，改 data/*.json 即用</desc>
+  <rect width="1200" height="320" rx="26" fill="#0B0F1A"/>
+  <g transform="translate(56 54)">
+    <rect width="36" height="36" rx="9" fill="#FBBF24" fill-opacity="0.13" stroke="#FBBF24" stroke-opacity="0.55"/>
+    <path d="M8,3 L8,21 M8,4 L17,9 L8,14" transform="translate(6 6)" fill="none" stroke="#FBBF24" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="104" y="78" font-family="ui-monospace, SFMono-Regular, Menlo, &quot;Consolas&quot;, monospace" font-size="17" letter-spacing="2.5" fill="#8B9BB4">ODIN SERIES · 02 / 05 · GITHUB PAGES</text>
+  <text x="56" y="156" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" font-size="54" font-weight="800" letter-spacing="1"><tspan fill="#F1F5F9">ODIN </tspan><tspan fill="#FBBF24">VALHALLA</tspan></text>
+  <text x="56" y="200" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" font-size="25" font-weight="600" fill="#D7DEE8">英灵殿 · 深色作品集模板，改 data/*.json 即用</text>
+  <text x="56" y="236" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" font-size="19" fill="#8B9BB4">React 19 · Vite · Tailwind CSS · 中英双语 · AI 分身</text>
+  <text x="56" y="276" font-family="ui-monospace, SFMono-Regular, Menlo, &quot;Consolas&quot;, monospace" font-size="17" fill="#5F6F8C">github.com/kael-odin/odin-valhalla</text>
+  <g transform="translate(770 44)">
+    <rect width="374" height="232" rx="14" fill="#131A2B" stroke="#26334D"/>
+    <line x1="24" y1="30" x2="350" y2="30" stroke="#26334D" stroke-width="2"/><line x1="89" y1="30" x2="89" y2="44" stroke="#5F6F8C"/><circle cx="89" cy="47" r="3" fill="#5F6F8C"/><rect x="44" y="52" width="90" height="96" rx="10" fill="#1A2336" stroke="#26334D" stroke-opacity="1"/><line x1="64" y1="82" x2="114" y2="82" stroke="#8B9BB4" stroke-opacity="0.5" stroke-width="2"/><line x1="64" y1="100" x2="102" y2="100" stroke="#8B9BB4" stroke-opacity="0.35" stroke-width="2"/><line x1="191" y1="30" x2="191" y2="44" stroke="#5F6F8C"/><circle cx="191" cy="47" r="3" fill="#5F6F8C"/><rect x="146" y="52" width="90" height="148" rx="10" fill="#1A2336" stroke="#FBBF24" stroke-opacity="0.85"/><path d="M191,74 L195,86 L207,86 L197,94 L201,106 L191,98 L181,106 L185,94 L175,86 L187,86 Z" fill="#FBBF24" fill-opacity="0.9"/><line x1="166" y1="178" x2="216" y2="178" stroke="#8B9BB4" stroke-opacity="0.5" stroke-width="2"/><line x1="293" y1="30" x2="293" y2="44" stroke="#5F6F8C"/><circle cx="293" cy="47" r="3" fill="#5F6F8C"/><rect x="248" y="52" width="90" height="72" rx="10" fill="#1A2336" stroke="#26334D" stroke-opacity="1"/><line x1="268" y1="82" x2="318" y2="82" stroke="#8B9BB4" stroke-opacity="0.5" stroke-width="2"/><line x1="268" y1="100" x2="306" y2="100" stroke="#8B9BB4" stroke-opacity="0.35" stroke-width="2"/>
+    <text x="18" y="219" font-family="ui-monospace, SFMono-Regular, Menlo, &quot;Consolas&quot;, monospace" font-size="16" fill="#5F6F8C" letter-spacing="1">hall of deeds</text>
+  </g>
+</svg>
