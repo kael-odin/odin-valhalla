@@ -1,33 +1,36 @@
 [
    {
       "id": 1,
-      "date": "2021 年 - 至今",
-      "title": "自学 · 全栈与 AI 应用（持续）",
-      "institution": "开源社区与一线实践",
-      "department": "TypeScript / Python / Go / LLM 应用",
-      "location": "中国 · 远程",
+      "date": "2020.09 - 2025.06",
+      "title": "智能科学与技术（人工智能方向）· 工学学士",
+      "institution": "江苏大学",
+      "department": "主修：数据结构与算法、机器学习基础、人工智能导论、数据库原理、计算机网络、软件工程",
+      "location": "江苏 · 镇江",
       "cgpa": "",
       "achievements": [
-         "17 个公开仓库，4 个原创模板与工具",
-         "长期维护每日自动更新项目（榜单 / 代理池 / 提示词库）"
+         "课程实践优秀个人（2023-2024 学年）",
+         "毕业设计：基于机器学习的校园智能导航系统（负责数据采集与前端联调）"
       ],
       "skills": [
-         "TypeScript",
          "Python",
-         "Vue",
-         "Astro",
-         "LLM 应用",
-         "自动化流水线"
+         "机器学习",
+         "SQL",
+         "HTML/CSS/JS"
       ]
    },
    {
       "id": 2,
-      "date": "2026 年 - 至今",
-      "title": "中文技术写作（持续）",
-      "institution": "odin-saga 数字花园",
-      "department": "项目复盘 / 工具评测 / 随笔",
-      "location": "中国 · 远程",
+      "date": "2017.09 - 2019.06",
+      "title": "理科试验班（竺可桢学院）",
+      "institution": "浙江大学",
+      "department": "「新生学习适应优秀学员」；肄业后重新高考",
+      "location": "浙江 · 杭州",
       "cgpa": "",
-      "skills": ["技术写作", "Next.js", "Markdown"]
+      "achievements": [
+         "高考 660 分（全省 1609 名）"
+      ],
+      "skills": [
+         "数理基础"
+      ]
    }
 ]

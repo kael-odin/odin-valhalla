@@ -1,33 +1,36 @@
 [
    {
       "id": 1,
-      "date": "2021 - Present",
-      "title": "Self-taught · Full-Stack & AI Apps (ongoing)",
-      "institution": "Open-source community & hands-on practice",
-      "department": "TypeScript / Python / Go / LLM apps",
-      "location": "China · Remote",
+      "date": "2020.09 - 2025.06",
+      "title": "BEng in Intelligence Science & Technology (AI track)",
+      "institution": "Jiangsu University",
+      "department": "Core courses: data structures & algorithms, ML fundamentals, AI introduction, databases, computer networks, software engineering",
+      "location": "Zhenjiang, Jiangsu, China",
       "cgpa": "",
       "achievements": [
-         "17 public repos, 4 original templates & tools",
-         "Long-term maintainer of daily auto-updating projects (rankings / proxy lists / prompt libraries)"
+         "Outstanding Course Practice Award (2023-2024)",
+         "Capstone: ML-based campus smart navigation (data collection & frontend integration)"
       ],
       "skills": [
-         "TypeScript",
          "Python",
-         "Vue",
-         "Astro",
-         "LLM apps",
-         "Automation pipelines"
+         "Machine Learning",
+         "SQL",
+         "HTML/CSS/JS"
       ]
    },
    {
       "id": 2,
-      "date": "2026 - Present",
-      "title": "Chinese tech writing (ongoing)",
-      "institution": "odin-saga digital garden",
-      "department": "Retrospectives / tool reviews / essays",
-      "location": "China · Remote",
+      "date": "2017.09 - 2019.06",
+      "title": "Science Experimental Program (Chu Kochen Honors College)",
+      "institution": "Zhejiang University",
+      "department": "\"Outstanding New Student Adaptation\" award; left and re-took the Gaokao",
+      "location": "Hangzhou, Zhejiang, China",
       "cgpa": "",
-      "skills": ["Tech writing", "Next.js", "Markdown"]
+      "achievements": [
+         "Gaokao 660/750 (rank 1609 province-wide)"
+      ],
+      "skills": [
+         "Math & Physics"
+      ]
    }
 ]

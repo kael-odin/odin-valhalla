@@ -2,72 +2,120 @@
    "professional_experience": [
       {
          "id": 1,
-         "date": "Mar 2026 - Present",
-         "title": "Independent Full-Stack Developer",
-         "position": "Full-time",
-         "company": "Independent",
-         "location": "China · Remote",
-         "summary": "Building AI apps and open-source tools: research rankings, prompt mirrors, BYOK tooling, and local-first agent workbenches — several auto-updated daily by GitHub Actions.",
+         "date": "2025.11 - 至今",
+         "title": "QA Engineer",
+         "position": "功能测试全流程",
+         "company": "Xuzhou Lingjiang Information Technology",
+         "location": "Xuzhou, China",
+         "summary": "Full-cycle functional testing for Thordata (enterprise proxy & data collection, a Bright Data peer), CoreClaw (web scraping platform, an Apify peer) and XSpark (static ISP proxy): requirement review -> test design -> execution -> defect tracking -> regression.",
          "projects": [
             {
-               "name": "awesome-academic-research-skills · daily research-skill ranking (85★)",
-               "date": "Jun 2026 - Present",
+               "name": "Specialized test suites for proxy & scraping",
+               "date": "2025.11 - 至今",
                "description": {
-                  "1": "A daily ranking of research Agent Skills for Chinese-speaking users: auto-discovers, filters, and ranks Claude Code / Codex / OpenCode research skills on GitHub.",
-                  "2": "Built end to end — topic selection, ranking pipeline, Chinese presentation — now one of the most cited skill rankings in the Chinese AI research community."
+                  "1": "Designed IP connectivity/latency, session persistence & rotation, scraping success rate & delivery accuracy, HTTP(S)/SOCKS5 multi-protocol test suites.",
+                  "2": "Combined API testing (Postman + traffic analysis), Playwright UI automation and SQL data validation; 300+ defects found and driven to fix."
                },
                "skills": [
-                  "JavaScript",
-                  "GitHub Actions",
-                  "Agent Skills",
-                  "Automation"
+                  "Playwright",
+                  "Postman",
+                  "Python",
+                  "SQL",
+                  "Charles"
                ],
-               "link": "https://github.com/kael-odin/awesome-academic-research-skills",
-               "linkLabel": "Repository"
+               "link": "",
+               "linkLabel": ""
             },
             {
-               "name": "prompts-chat-zh · Chinese prompt mirror (2,205 entries)",
-               "date": "Sep 2026 - Present",
+               "name": "Enterprise AI infra: llama.cpp + FastGPT",
+               "date": "2025.11 - 至今",
                "description": {
-                  "1": "Unofficial Simplified-Chinese mirror of prompts.chat: all 2,205 public prompts translated, bilingual side-by-side, full-text search, one-click copy.",
-                  "2": "Astro static site plus an incremental translation pipeline on GitHub Pages with trackable progress."
+                  "1": "Deployed LLMs locally with llama.cpp and tuned inference params (quantization, context, concurrency); built the company knowledge base on FastGPT with document cleaning, chunking and retrieval tuning.",
+                  "2": "Established model/Agent tool evaluation methodology; ongoing AI support for 50+ colleagues."
                },
-               "skills": ["Astro", "JavaScript", "i18n", "GitHub Pages"],
-               "link": "https://github.com/kael-odin/prompts-chat-zh",
-               "linkLabel": "Repository"
-            },
-            {
-               "name": "Amadeus-Agent · single-file AI agent workbench",
-               "date": "Aug 2026 - Present",
-               "description": {
-                  "1": "A single-file AI agent workbench: desktop plus icons plus windows, each icon an independent chat agent; Vue 3.5 with AI SDK v7, zero build, double-click to run.",
-                  "2": "Ships with free-model presets, web search, vision tools, memory self-governance, and task guardrails — all data stays in the browser."
-               },
-               "skills": ["Vue", "AI SDK", "Local-first", "Agent"],
-               "link": "https://github.com/kael-odin/Amadeus-Agent",
-               "linkLabel": "Repository"
+               "skills": [
+                  "llama.cpp",
+                  "FastGPT",
+                  "RAG",
+                  "模型评测",
+                  "Prompt 工程"
+               ],
+               "link": "",
+               "linkLabel": ""
             }
+         ],
+         "skills": [
+            "Playwright",
+            "Postman",
+            "Python",
+            "SQL",
+            "Charles"
          ]
       },
       {
          "id": 2,
-         "date": "Mar 2026 - Present",
-         "title": "Personal Blog & Digital Garden Owner",
-         "position": "Ongoing",
-         "company": "odin-saga",
-         "location": "China · Remote",
-         "summary": "A Next.js personal blog for tech notes, project write-ups, and essays, editable visually in the browser via a GitHub App.",
+         "date": "2020 - 2025",
+         "title": "Founder / Part-time Developer",
+         "position": "半工半读",
+         "company": "Tutoring startup (Hangzhou / Nanjing / Zhenjiang)",
+         "location": "Hangzhou / Nanjing / Zhenjiang",
+         "summary": "Ran a tutoring business with 100+ students taught while in school; went full-time after graduation and built a WeChat Mini Program to run operations, then deliberately pivoted to the AI industry.",
          "projects": [
             {
-               "name": "odin-saga · visually editable blog",
-               "date": "Mar 2026 - Present",
+               "name": "Yunxi Education internal system · user management module",
+               "date": "2022 - 2023",
                "description": {
-                  "1": "Built on the Next.js App Router; posts, site config, and images are all editable in a visual web UI backed by a GitHub App pipeline.",
-                  "2": "Also a lab for Chinese tech writing: project retrospectives, tool reviews, and essays land here first."
+                  "1": "Coded and tested the user info module (Java: registration/login/user management); joined requirement analysis and bug-fix verification.",
+                  "2": "My first real engineering practice: moving real business workflows into a system."
                },
-               "skills": ["Next.js", "TypeScript", "Markdown", "Vercel"],
-               "link": "https://odin-saga.vercel.app",
-               "linkLabel": "Visit live"
+               "skills": [
+                  "Java",
+                  "MySQL",
+                  "需求分析"
+               ],
+               "link": "",
+               "linkLabel": ""
+            }
+         ]
+      },
+      {
+         "id": 3,
+         "date": "2024 - 至今",
+         "title": "Independent Open Source (side)",
+         "position": "持续输出",
+         "company": "GitHub · kael-odin",
+         "location": "中国 · 远程",
+         "summary": "Turning lessons learned into open-source projects and automation pipelines; several repos update daily via GitHub Actions at zero server cost.",
+         "projects": [
+            {
+               "name": "awesome-academic-research-skills · 学术 Skill 每日榜（85★）",
+               "date": "2026.06 - 至今",
+               "description": {
+                  "1": "面向中文用户的学术论文与科研 Agent Skill 排行榜：自动搜索、过滤并排名 GitHub 上的 Claude Code / Codex / OpenCode 科研 Skill。",
+                  "2": "从选题、榜单流水线到中文呈现全链路自研，每日自动更新。"
+               },
+               "skills": [
+                  "JavaScript",
+                  "GitHub Actions",
+                  "自动化榜单"
+               ],
+               "link": "https://github.com/kael-odin/awesome-academic-research-skills",
+               "linkLabel": "仓库"
+            },
+            {
+               "name": "prompts-chat-zh · 提示词中文镜像（2205 条）",
+               "date": "2026.09 - 至今",
+               "description": {
+                  "1": "prompts.chat 的非官方简体中文镜像：2205 条公开提示词全部译成中文，中英对照、全文搜索、一键复制。",
+                  "2": "Astro 静态站 + 增量翻译流水线，部署在 GitHub Pages。"
+               },
+               "skills": [
+                  "Astro",
+                  "i18n",
+                  "GitHub Pages"
+               ],
+               "link": "https://github.com/kael-odin/prompts-chat-zh",
+               "linkLabel": "仓库"
             }
          ]
       }
@@ -75,16 +123,24 @@
    "positions_of_responsibility": [
       {
          "id": 1,
-         "date": "Jun 2026 - Present",
-         "title": "Open Ranking Maintainer",
-         "position": "Maintainer",
-         "company": "awesome-academic-research-skills",
-         "location": "China · Remote",
-         "summary": "Own the inclusion criteria and daily update pipeline of a Chinese research-skill ranking.",
+         "date": "2020 - 2025",
+         "title": "Tutoring Startup Founder",
+         "position": "创始人",
+         "org": "K-12 tutoring (Hangzhou / Nanjing / Zhenjiang)",
          "description": {
-            "1": "Define skill inclusion and ranking rules, triage community suggestions and corrections, keep the ranking credibly fresh every day."
+            "1": "K-12 tutoring in partnership with local education companies, covering teaching, enrollment and operations.",
+            "2": "Deliberately wound it down to pivot to the fast-growing AI industry."
          },
-         "skills": ["Open-source governance", "Automation", "Curation"]
+         "link": "",
+         "linkLabel": "",
+         "skills": [
+            "Teaching ops",
+            "Enrollment",
+            "WeChat Mini Program"
+         ],
+         "company": "K-12 tutoring (partner locations)",
+         "location": "Hangzhou / Nanjing / Zhenjiang",
+         "summary": "Started the tutoring business while in school and went full-time after graduation; 100+ students taught, operations run on a self-built WeChat Mini Program."
       }
    ]
 }

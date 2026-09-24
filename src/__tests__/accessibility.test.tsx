@@ -68,7 +68,7 @@ describe("accessible interactions", () => {
       renderWithProviders(<QuickFacts isMobile={false} />);
       // Mirrors data/personal.zh.json (default language is zh).
       // If you change role/employer, update these expectations to match.
-      expect(screen.getByText("全栈开发者 @ 独立开发者")).toBeTruthy();
+      expect(screen.getByText("测试工程师 @ 徐州灵匠信息科技有限公司")).toBeTruthy();
    });
 
    it("uses an explicit project Details button without nesting links in a pseudo-button", () => {

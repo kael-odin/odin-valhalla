@@ -1,89 +1,125 @@
 {
    "profile": {
-      "name": "Kael Odin",
-      "title": "Full-Stack Developer · AI Apps & Open-Source Tools",
-      "location": "China · Remote",
-      "email": "kael-odin@outlook.com",
+      "name": "Tang Yong (Kael Odin)",
+      "title": "AI Application Engineer / QA Engineer",
+      "location": "Xuzhou, Jiangsu, China",
+      "email": "sczxtangyong@163.com",
       "github": "https://github.com/kael-odin",
       "blog": "https://odin-saga.vercel.app/"
    },
    "resume": {
       "pdf_url": "",
       "online_url": "https://www.kdocs.cn/l/cdBeR0qXiLGY",
-      "note": "No online resume document configured yet. Replace resume.online_url in data/resume.en.json with your WPS Docs (kdocs.cn) share link to embed the preview here."
+      "note": "还没有配置在线简历文档。把 data/resume.zh.json 里 resume.online_url 换成你的金山文档（kdocs.cn）/ WPS 分享链接，这里会直接内嵌预览。"
    },
-   "summary": "Independent full-stack developer focused on AI apps, open-source tools, and automation. Turning ideas into repositories: research-skill rankings, prompt mirrors, BYOK tooling, and local-first agent workbenches.",
+   "summary": "Engineer balancing QA depth and AI adoption: full-cycle testing across three proxy/data-collection product lines with 300+ defects driven to fix; led llama.cpp private deployment, FastGPT knowledge base and model selection; open-source and automation enthusiast.",
    "highlights": [
-      "awesome-academic-research-skills: daily research-skill ranking for Chinese users, 85 stars, auto-updated daily",
-      "prompts-chat-zh: 2,205 prompts mirrored in Chinese, Astro static site + incremental pipeline",
-      "openworker Chinese localization: tracks upstream, fully translated, local-first, 27 stars",
-      "Amadeus-Agent: single-file AI agent workbench, zero build, double-click to run",
-      "17 public repos, long-term maintainer of auto-updating projects"
+      "QA: full-cycle functional testing for Thordata / CoreClaw / XSpark; designed IP connectivity & interface stability suites; 300+ defects found and fixed",
+      "AI adoption: llama.cpp private deployment & tuning, FastGPT enterprise knowledge base, model/Agent tool evaluation — AI support for 50+ colleagues",
+      "Self-driven learning: Gaokao 660 into Zhejiang University (Chu Kochen Honors College); re-took Gaokao and earned a BEng in Intelligence Science & Technology while working"
    ],
    "experience": [
       {
-         "role": "Independent Full-Stack Developer",
-         "org": "Independent",
-         "date": "Mar 2026 — Present",
+         "role": "QA Engineer",
+         "org": "Xuzhou Lingjiang Information Technology",
+         "date": "2025.11 — 至今",
          "bullets": [
-            "Building AI apps and open-source tools: rankings, prompt mirrors, BYOK tooling, local-first agent workbenches",
-            "Several projects auto-update daily via GitHub Actions at zero server cost"
+            "负责 Thordata（企业级代理与数据采集，对标 Bright Data）、CoreClaw（网页数据采集平台，对标 Apify）、XSpark（静态 ISP 代理）三条产品线的功能测试全流程",
+            "设计专项测试：IP 连通率与响应延迟、会话保持与轮换正确性、采集成功率与数据交付准确性、HTTP(S)/SOCKS5 多协议兼容",
+            "接口测试（Postman + 抓包）+ Web UI 自动化（Playwright + pytest）+ SQL 数据核对，沉淀可复用用例与脚本",
+            "推动企业 AI 落地：llama.cpp 私有化部署 + FastGPT 知识库 + 模型选型评测，常态化 AI 支持"
          ]
       },
       {
-         "role": "Personal Blog & Digital Garden Owner",
-         "org": "odin-saga",
-         "date": "Mar 2026 — Present",
+         "role": "Founder / Part-time Developer",
+         "org": "Tutoring startup (Hangzhou / Nanjing / Zhenjiang)",
+         "date": "2020 — 2025",
          "bullets": [
-            "Next.js tech blog: retrospectives, tool reviews, essays, visually editable on the web"
+            "与杭州神舟家教、南京沄汐教育合作开展初高中教培，累计带教学生 100+ 名",
+            "参与沄汐教育内部管理系统开发：用户信息管理模块（Java）编码与测试",
+            "独立开发微信小程序支撑业务运转；后主动收缩业务转向 AI 方向"
+         ]
+      },
+      {
+         "role": "Independent Open Source (side projects)",
+         "org": "GitHub · kael-odin",
+         "date": "2024 — 至今",
+         "bullets": [
+            "awesome-academic-research-skills：学术 Skill 每日榜（85★），GitHub Actions 自动更新",
+            "prompts-chat-zh：2205 条提示词中英对照镜像；openworker 全量中文汉化（27★）"
          ]
       }
    ],
    "projects": [
       {
+         "name": "企业 AI 基础设施",
+         "desc": "llama.cpp 私有化部署 + FastGPT 知识库",
+         "url": ""
+      },
+      {
          "name": "awesome-academic-research-skills",
-         "desc": "Daily research-skill ranking · 85 stars",
+         "desc": "学术 Skill 每日榜 · 85★",
          "url": "https://github.com/kael-odin/awesome-academic-research-skills"
       },
       {
          "name": "prompts-chat-zh",
-         "desc": "2,205 prompts mirrored in Chinese",
+         "desc": "2205 条提示词中英镜像",
          "url": "https://github.com/kael-odin/prompts-chat-zh"
       },
       {
-         "name": "openworker (Chinese)",
-         "desc": "Tracks upstream · fully translated · 27 stars",
-         "url": "https://github.com/kael-odin/openworker"
-      },
-      {
-         "name": "Amadeus-Agent",
-         "desc": "Single-file AI agent workbench",
-         "url": "https://github.com/kael-odin/Amadeus-Agent"
+         "name": "校园智能导航系统",
+         "desc": "机器学习课程设计 · 数据采集与前端联调",
+         "url": ""
       }
-   ],
-   "skills": [
-      "TypeScript",
-      "JavaScript",
-      "Python",
-      "Go",
-      "Vue",
-      "React",
-      "Next.js",
-      "Astro",
-      "Node.js",
-      "FastAPI",
-      "LLM Apps",
-      "Prompt Engineering",
-      "Agent Skills",
-      "GitHub Actions",
-      "Docker",
-      "CI/CD"
    ],
    "education": [
       {
-         "school": "Open-source community & hands-on practice",
-         "major": "Full-stack & AI apps (self-taught · ongoing)",
-         "date": "2021 — Present"
+         "school": "江苏大学",
+         "degree": "智能科学与技术（人工智能方向）· 工学学士",
+         "date": "2020.09 — 2025.06",
+         "note": "转专业，五年制；课程实践优秀个人（2023-2024 学年）"
+      },
+      {
+         "school": "浙江大学",
+         "degree": "理科试验班（竺可桢学院）",
+         "date": "2017.09 — 2019.06",
+         "note": "新生学习适应优秀学员；肄业后重新高考"
+      }
+   ],
+   "skills": [
+      {
+         "group": "QA",
+         "items": [
+            "Test design & defect management (Teambition)",
+            "API testing (Postman)",
+            "Traffic analysis (Charles / DevTools)",
+            "Web UI automation (Playwright + pytest)",
+            "SQL data validation",
+            "Python test scripting"
+         ]
+      },
+      {
+         "group": "AI Engineering",
+         "items": [
+            "llama.cpp private deployment & tuning",
+            "FastGPT / RAG knowledge base",
+            "Prompt engineering",
+            "Model evaluation & selection",
+            "ComfyUI / Stable Diffusion / Midjourney"
+         ]
+      },
+      {
+         "group": "Development",
+         "items": [
+            "Python",
+            "Java",
+            "JavaScript / HTML / CSS",
+            "MySQL",
+            "WeChat Mini Programs",
+            "Git",
+            "Linux",
+            "AI coding tools (Copilot / Claude Code / Cursor)"
+         ]
       }
    ]
 }

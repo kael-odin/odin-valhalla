@@ -1,58 +1,40 @@
 {
    "languages": [
-      "TypeScript",
-      "JavaScript",
       "Python",
-      "Go",
-      "SQL",
-      "Bash",
-      "HTML/CSS"
+      "Java",
+      "JavaScript",
+      "HTML/CSS",
+      "SQL"
    ],
-   "frontend": ["Vue", "React", "Next.js", "Astro", "Vite", "Tailwind CSS"],
+   "frontend": [
+      "Playwright",
+      "HTML/CSS/JS",
+      "WeChat Mini Programs",
+      "React (template customization)"
+   ],
    "backend": [
-      "Node.js",
-      "FastAPI",
-      "REST API",
-      "PostgreSQL",
-      "SQLite",
-      "Redis"
+      "MySQL",
+      "Java",
+      "Lightweight Python scripts"
    ],
    "cloud_devops": [
       "GitHub Actions",
-      "Docker",
-      "CI/CD Pipelines",
-      "GitHub Pages",
-      "Vercel",
-      "Linux"
+      "Linux",
+      "Docker (deployment)",
+      "Git"
    ],
    "ai_ml": [
-      "LLM APIs",
-      "Prompt Engineering",
-      "RAG Pipelines",
-      "Agent Skills",
-      "MCP",
-      "BYOK Tooling"
+      "llama.cpp private deployment & tuning",
+      "FastGPT / RAG knowledge base",
+      "Prompt engineering",
+      "Model evaluation & selection",
+      "ComfyUI / Stable Diffusion / Midjourney"
    ],
    "tools_platforms": [
-      "Git",
-      "VS Code",
-      "Cursor",
-      "Claude Code",
-      "pnpm",
-      "Markdown"
-   ],
-   "hero_stack": [
-      "TypeScript",
-      "Vue",
-      "React",
-      "Python",
-      "Node.js",
-      "FastAPI",
-      "GitHub Actions",
-      "Docker",
-      "Astro",
-      "Tailwind CSS",
-      "LLM APIs",
-      "PostgreSQL"
+      "Postman",
+      "Charles / DevTools",
+      "Teambition",
+      "Copilot / Claude Code / Cursor",
+      "VS Code"
    ]
 }

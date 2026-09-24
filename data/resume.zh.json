@@ -1,9 +1,9 @@
 {
    "profile": {
-      "name": "Kael Odin",
-      "title": "全栈开发者 · AI 应用与开源工具",
-      "location": "中国 · 远程",
-      "email": "kael-odin@outlook.com",
+      "name": "汤勇 Kael Odin",
+      "title": "AI 应用工程师 / 测试工程师",
+      "location": "江苏 · 徐州",
+      "email": "sczxtangyong@163.com",
       "github": "https://github.com/kael-odin",
       "blog": "https://odin-saga.vercel.app/"
    },
@@ -12,37 +12,53 @@
       "online_url": "https://www.kdocs.cn/l/cdBeR0qXiLGY",
       "note": "还没有配置在线简历文档。把 data/resume.zh.json 里 resume.online_url 换成你的金山文档（kdocs.cn）/ WPS 分享链接，这里会直接内嵌预览。"
    },
-   "summary": "独立全栈开发者，专注 AI 应用、开源工具与自动化系统。把想法变成仓库：从学术 Skill 榜单、提示词中文镜像，到 BYOK 工具与本地优先的 AI 工作台。",
+   "summary": "测试工程与 AI 落地双线并进的工程师：三条代理/数据采集产品线的测试全流程与 300+ 缺陷修复推动；llama.cpp 私有化部署、FastGPT 知识库与模型选型评测的主导者；业余开源与自动化流水线爱好者。",
    "highlights": [
-      "awesome-academic-research-skills：面向中文用户的学术 Skill 每日榜，85 Star，每日自动更新",
-      "prompts-chat-zh：2205 条提示词中英对照镜像，Astro 静态站 + 增量翻译流水线",
-      "openworker 中文汉化版：追平上游、全量汉化、本地优先，27 Star",
-      "Amadeus-Agent：单文件 AI 智能体工作台，零构建双击即用",
-      "17 个公开仓库，长期维护自动化更新项目"
+      "测试工程：Thordata / CoreClaw / XSpark 三条产品线功能测试全流程，设计 IP 连通率、接口稳定性等专项测试，累计发现并推动修复缺陷 300+",
+      "AI 落地：llama.cpp 私有化部署大模型并调优参数，FastGPT 搭建企业知识库，主导模型/Agent 工具选型评测，为 50+ 名同事提供 AI 支持",
+      "学习与自驱：高考 660 分考入浙江大学理科试验班（竺可桢学院），肄业后重新高考，半工半读完成智能科学与技术（AI 方向）本科"
    ],
    "experience": [
       {
-         "role": "独立全栈开发者",
-         "org": "独立开发",
-         "date": "2026-03 — 至今",
+         "role": "测试工程师",
+         "org": "徐州灵匠信息科技有限公司",
+         "date": "2025.11 — 至今",
          "bullets": [
-            "做 AI 应用与开源工具：学术榜单、提示词镜像、BYOK 工具、本地优先智能体工作台",
-            "多个项目靠 GitHub Actions 每日自动更新，零服务器成本"
+            "负责 Thordata（企业级代理与数据采集，对标 Bright Data）、CoreClaw（网页数据采集平台，对标 Apify）、XSpark（静态 ISP 代理）三条产品线的功能测试全流程",
+            "设计专项测试：IP 连通率与响应延迟、会话保持与轮换正确性、采集成功率与数据交付准确性、HTTP(S)/SOCKS5 多协议兼容",
+            "接口测试（Postman + 抓包）+ Web UI 自动化（Playwright + pytest）+ SQL 数据核对，沉淀可复用用例与脚本",
+            "推动企业 AI 落地：llama.cpp 私有化部署 + FastGPT 知识库 + 模型选型评测，常态化 AI 支持"
          ]
       },
       {
-         "role": "个人博客与数字花园主理人",
-         "org": "odin-saga",
-         "date": "2026-03 — 至今",
+         "role": "创始人 / 兼职开发（半工半读）",
+         "org": "教培创业（杭州 / 南京 / 镇江）",
+         "date": "2020 — 2025",
          "bullets": [
-            "Next.js 技术博客：项目复盘、工具评测、随笔，支持网页可视化编辑"
+            "与杭州神舟家教、南京沄汐教育合作开展初高中教培，累计带教学生 100+ 名",
+            "参与沄汐教育内部管理系统开发：用户信息管理模块（Java）编码与测试",
+            "独立开发微信小程序支撑业务运转；后主动收缩业务转向 AI 方向"
+         ]
+      },
+      {
+         "role": "独立开源（业余）",
+         "org": "GitHub · kael-odin",
+         "date": "2024 — 至今",
+         "bullets": [
+            "awesome-academic-research-skills：学术 Skill 每日榜（85★），GitHub Actions 自动更新",
+            "prompts-chat-zh：2205 条提示词中英对照镜像；openworker 全量中文汉化（27★）"
          ]
       }
    ],
    "projects": [
       {
+         "name": "企业 AI 基础设施",
+         "desc": "llama.cpp 私有化部署 + FastGPT 知识库",
+         "url": ""
+      },
+      {
          "name": "awesome-academic-research-skills",
-         "desc": "学术 Skill 每日榜 · 85 Star",
+         "desc": "学术 Skill 每日榜 · 85★",
          "url": "https://github.com/kael-odin/awesome-academic-research-skills"
       },
       {
@@ -51,39 +67,59 @@
          "url": "https://github.com/kael-odin/prompts-chat-zh"
       },
       {
-         "name": "openworker（中文汉化）",
-         "desc": "追平上游 · 全量汉化 · 27 Star",
-         "url": "https://github.com/kael-odin/openworker"
-      },
-      {
-         "name": "Amadeus-Agent",
-         "desc": "单文件 AI 智能体工作台",
-         "url": "https://github.com/kael-odin/Amadeus-Agent"
+         "name": "校园智能导航系统",
+         "desc": "机器学习课程设计 · 数据采集与前端联调",
+         "url": ""
       }
-   ],
-   "skills": [
-      "TypeScript",
-      "JavaScript",
-      "Python",
-      "Go",
-      "Vue",
-      "React",
-      "Next.js",
-      "Astro",
-      "Node.js",
-      "FastAPI",
-      "LLM 应用",
-      "Prompt Engineering",
-      "Agent Skills",
-      "GitHub Actions",
-      "Docker",
-      "CI/CD"
    ],
    "education": [
       {
-         "school": "开源社区与一线实践",
-         "major": "全栈与 AI 应用（自学 · 持续）",
-         "date": "2021 — 至今"
+         "school": "江苏大学",
+         "degree": "智能科学与技术（人工智能方向）· 工学学士",
+         "date": "2020.09 — 2025.06",
+         "note": "转专业，五年制；课程实践优秀个人（2023-2024 学年）"
+      },
+      {
+         "school": "浙江大学",
+         "degree": "理科试验班（竺可桢学院）",
+         "date": "2017.09 — 2019.06",
+         "note": "新生学习适应优秀学员；肄业后重新高考"
+      }
+   ],
+   "skills": [
+      {
+         "group": "测试",
+         "items": [
+            "用例设计与缺陷管理（Teambition）",
+            "接口测试（Postman）",
+            "抓包分析（Charles / DevTools）",
+            "Web UI 自动化（Playwright + pytest）",
+            "SQL 数据校验",
+            "Python 测试脚本"
+         ]
+      },
+      {
+         "group": "AI 工程",
+         "items": [
+            "llama.cpp 私有化部署与调参",
+            "FastGPT / RAG 知识库",
+            "Prompt 工程",
+            "模型评测与选型",
+            "ComfyUI / Stable Diffusion / Midjourney"
+         ]
+      },
+      {
+         "group": "开发",
+         "items": [
+            "Python",
+            "Java",
+            "JavaScript / HTML / CSS",
+            "MySQL",
+            "微信小程序",
+            "Git",
+            "Linux",
+            "AI 编程工具（Copilot / Claude Code / Cursor）"
+         ]
       }
    ]
 }

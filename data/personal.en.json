@@ -1,42 +1,42 @@
 {
-   "name": "Kael Odin",
-   "title": "Full-Stack Developer · AI Apps & Open-Source Tools",
-   "role": "Full-Stack Developer",
-   "employer": "Independent",
-   "location": "China · Remote",
+   "name": "汤勇 Kael Odin",
+   "title": "AI Application Engineer / QA Engineer",
+   "role": "QA Engineer",
+   "employer": "Xuzhou Lingjiang Information Technology",
+   "location": "Xuzhou, Jiangsu, China",
    "timezone": "Asia/Shanghai",
-   "intro": "Independent full-stack developer focused on AI apps, open-source tools, and automation. Turning ideas into repositories: research-skill rankings, prompt mirrors, BYOK tooling, and local-first agent workbenches.",
-   "role_label": "Full-Stack Developer @ Independent",
-   "headline": "Turning ideas into repositories.",
-   "availability": "Open to collaboration: AI apps, open-source tools, automation",
+   "intro": "QA engineering and AI adoption in parallel: full-cycle functional testing for three proxy/data-collection product lines (Thordata, CoreClaw, XSpark) with 300+ defects found and fixed; led llama.cpp private deployment, FastGPT enterprise knowledge base and model selection reviews. Open-source builder in my spare time.",
+   "role_label": "QA Engineer @ Lingjiang",
+   "headline": "Make it work first, explain it second.",
+   "availability": "Open to: AI adoption / QA engineering / automation / OSS",
    "contact": {
       "github": "kael-odin"
    },
    "about": {
-      "greeting": "👋 Hi, I'm Kael Odin.",
-      "current_role": "💼 Independent full-stack developer building AI apps and open-source tools: rankings, mirror sites, BYOK tooling, local-first agent workbenches.",
-      "specialization": "🚀 Known for awesome-academic-research-skills (85★ daily research-skill ranking), prompts-chat-zh (2,205 prompts mirrored in Chinese), and the openworker Chinese localization (27★).",
-      "education": "🎓 Self-taught engineer working across TypeScript / Python / Go / Vue / Astro, deep into LLM apps and automation pipelines.",
-      "competitive_programming": "🏆 17 public repos on GitHub, maintaining several auto-updating projects (rankings, proxy lists, prompt libraries)."
+      "greeting": "👋 Hi, I am Tang Yong (Kael Odin).",
+      "current_role": "💼 QA Engineer @ Xuzhou Lingjiang: full-cycle testing for proxy & data-collection product lines, designing IP connectivity and interface stability test suites.",
+      "specialization": "🚀 AI adoption: llama.cpp private deployment & tuning, FastGPT enterprise knowledge base (RAG), LLM/Agent tool evaluation — AI support for 50+ colleagues.",
+      "education": "🎓 Started at Zhejiang University (Chu Kochen Honors College), re-took Gaokao, and finished a BEng in Intelligence Science & Technology at Jiangsu University while working part-time.",
+      "competitive_programming": "🏆 Gaokao 660/750 (rank 1609 province-wide); mentored 100+ students; maintains auto-updating open-source projects on GitHub."
    },
    "impact": {
-      "clients_served": "17",
-      "clients_note": "public repos",
-      "workloads_migrated": "2,205",
-      "aws_accounts": "4",
-      "security_controls": "85",
-      "security_note": "top repo stars",
-      "workloads_note": "mirrored prompts",
-      "aws_note": "original templates & tools"
+      "clients_served": "300+",
+      "clients_note": "defects found & fixed",
+      "workloads_migrated": "50+",
+      "aws_accounts": "100+",
+      "security_controls": "2205",
+      "security_note": "prompts mirrored (zh/en)",
+      "workloads_note": "colleagues supported with AI",
+      "aws_note": "students mentored"
    },
    "languages": [
       {
-         "name": "Chinese",
+         "name": "中文",
          "level": "Native"
       },
       {
          "name": "English",
-         "level": "Working"
+         "level": "CET-6 · reads technical docs"
       }
    ],
    "social_profiles": [
@@ -54,6 +54,12 @@
       }
    ],
    "site": {
-      "tech_stack": ["React 19", "Vite 8", "Tailwind v4", "Motion", "Lenis"]
+      "tech_stack": [
+         "React 19",
+         "Vite 8",
+         "Tailwind v4",
+         "Motion",
+         "Lenis"
+      ]
    }
 }

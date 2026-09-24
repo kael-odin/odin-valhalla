@@ -1,33 +1,33 @@
 {
-   "name": "Kael Odin",
-   "title": "全栈开发者 · AI 应用与开源工具",
-   "role": "全栈开发者",
-   "employer": "独立开发者",
-   "location": "中国 · 远程",
+   "name": "汤勇 Kael Odin",
+   "title": "AI 应用工程师 / 测试工程师",
+   "role": "测试工程师",
+   "employer": "徐州灵匠信息科技有限公司",
+   "location": "江苏 · 徐州",
    "timezone": "Asia/Shanghai",
-   "intro": "独立全栈开发者，专注 AI 应用、开源工具与自动化系统。把想法变成仓库：从学术 Skill 榜单、提示词中文镜像，到提示词工程、BYOK 工具与本地优先的 AI 工作台。",
-   "role_label": "全栈开发者 @ 独立开发",
-   "headline": "把想法变成仓库。",
-   "availability": "欢迎交流与合作：AI 应用、开源工具、自动化系统",
+   "intro": "测试工程与 AI 落地双线并进：负责 Thordata、CoreClaw、XSpark 三条代理/数据采集产品线的测试全流程，累计发现并推动修复缺陷 300+；主导 llama.cpp 私有化部署、FastGPT 企业知识库与模型选型评测。业余持续开源：学术 Skill 每日榜、提示词中文镜像等。",
+   "role_label": "测试工程师 @ 灵匠科技",
+   "headline": "先跑通，再讲清楚。",
+   "availability": "欢迎交流：AI 落地 / 测试工程 / 自动化 / 开源协作",
    "contact": {
       "github": "kael-odin"
    },
    "about": {
-      "greeting": "👋 你好，我是 Kael Odin。",
-      "current_role": "💼 独立全栈开发者，做 AI 应用与开源工具：榜单、镜像站、BYOK 工具、本地优先的智能体工作台。",
-      "specialization": "🚀 代表作 awesome-academic-research-skills（85★ 学术 Skill 每日榜）、prompts-chat-zh（2205 条提示词中英镜像）、openworker 中文汉化（27★）。",
-      "education": "🎓 自学型工程师，技术栈覆盖 TypeScript / Python / Go / Vue / Astro，深耕 LLM 应用与自动化流水线。",
-      "competitive_programming": "🏆 GitHub 17 个公开仓库，长期维护多个自动化更新项目（榜单、代理池、提示词库）。"
+      "greeting": "👋 你好，我是汤勇（Kael Odin）。",
+      "current_role": "💼 测试工程师 @ 徐州灵匠信息科技：代理与数据采集产品线的功能测试全流程，IP 连通率、接口稳定性等专项测试的设计者。",
+      "specialization": "🚀 AI 落地：llama.cpp 私有化部署与调优、FastGPT 企业知识库（RAG）、大模型与 Agent 工具的选型评测，为 50+ 名同事提供 AI 支持。",
+      "education": "🎓 浙江大学理科试验班（竺可桢学院）起步，肄业后重新高考，半工半读完成江苏大学智能科学与技术（AI 方向）本科。",
+      "competitive_programming": "🏆 高考 660 分（全省 1609 名）；累计带教学生 100+ 名；GitHub 上长期维护每日自动更新的开源项目。"
    },
    "impact": {
-      "clients_served": "17",
-      "clients_note": "个公开仓库",
-      "workloads_migrated": "2205",
-      "aws_accounts": "4",
-      "security_controls": "85",
-      "security_note": "最高单仓 Star",
-      "workloads_note": "条提示词（中英对照）",
-      "aws_note": "个原创模板与工具"
+      "clients_served": "300+",
+      "clients_note": "累计发现并推动修复缺陷",
+      "workloads_migrated": "50+",
+      "aws_accounts": "100+",
+      "security_controls": "2205",
+      "security_note": "条提示词中英镜像",
+      "workloads_note": "名同事获得 AI 支持",
+      "aws_note": "名学生（教培创业）"
    },
    "languages": [
       {
@@ -36,7 +36,7 @@
       },
       {
          "name": "English",
-         "level": "工作交流"
+         "level": "CET-6 · 可阅读英文技术文档"
       }
    ],
    "social_profiles": [
@@ -54,6 +54,12 @@
       }
    ],
    "site": {
-      "tech_stack": ["React 19", "Vite 8", "Tailwind v4", "Motion", "Lenis"]
+      "tech_stack": [
+         "React 19",
+         "Vite 8",
+         "Tailwind v4",
+         "Motion",
+         "Lenis"
+      ]
    }
 }

@@ -2,24 +2,94 @@
    "professional_experience": [
       {
          "id": 1,
-         "date": "2026-03 - 至今",
-         "title": "独立全栈开发者",
-         "position": "全职投入",
-         "company": "独立开发",
+         "date": "2025.11 - 至今",
+         "title": "测试工程师",
+         "position": "功能测试全流程",
+         "company": "徐州灵匠信息科技有限公司",
+         "location": "江苏 · 徐州",
+         "summary": "负责 Thordata（企业级代理与数据采集服务，对标 Bright Data）、CoreClaw（网页数据采集平台，对标 Apify）、XSpark（静态 ISP 代理）三条产品线的功能测试全流程：需求评审 → 用例设计 → 执行 → 缺陷跟踪 → 回归验证。",
+         "projects": [
+            {
+               "name": "代理与采集业务专项测试体系",
+               "date": "2025.11 - 至今",
+               "description": {
+                  "1": "设计 IP 连通率与响应延迟、会话保持与轮换正确性、采集任务成功率与数据交付准确性、HTTP(S)/SOCKS5 多协议兼容等专项测试。",
+                  "2": "结合接口测试（Postman + 抓包分析）、Web UI 自动化（Playwright + pytest）与 SQL 数据核对，沉淀可复用用例与脚本，累计发现并推动修复缺陷 300+。"
+               },
+               "skills": [
+                  "Playwright",
+                  "Postman",
+                  "Python",
+                  "SQL",
+                  "Charles"
+               ],
+               "link": "",
+               "linkLabel": ""
+            },
+            {
+               "name": "企业 AI 基础设施：大模型私有化部署 + FastGPT 知识库",
+               "date": "2025.11 - 至今",
+               "description": {
+                  "1": "基于 llama.cpp 完成大模型本地化部署与推理参数调优（量化等级、上下文、并发配置）；基于 FastGPT 搭建企业专属知识库：文档清洗入库、切片与检索调优。",
+                  "2": "建立模型/工具选型评测方法：横向对比主流大模型与 Agent 产品，输出选型结论作为团队引入依据，为 50+ 名同事提供常态化 AI 支持。"
+               },
+               "skills": [
+                  "llama.cpp",
+                  "FastGPT",
+                  "RAG",
+                  "模型评测",
+                  "Prompt 工程"
+               ],
+               "link": "",
+               "linkLabel": ""
+            }
+         ]
+      },
+      {
+         "id": 2,
+         "date": "2020 - 2025",
+         "title": "创始人 / 兼职开发",
+         "position": "半工半读",
+         "company": "教培创业（杭州 / 南京 / 镇江）",
+         "location": "杭州 / 南京 / 镇江",
+         "summary": "在校期间与杭州神舟家教、南京沄汐教育合作开展初高中教培，累计带教学生 100+ 名；2025 年毕业后全职投入教培创业，独立开发微信小程序支撑业务运转。",
+         "projects": [
+            {
+               "name": "沄汐教育内部管理系统 · 用户信息管理模块",
+               "date": "2022 - 2023",
+               "description": {
+                  "1": "完成用户信息管理模块（Java：注册/登录/用户管理）的编码与测试，并参与需求分析、bug 修复验证。",
+                  "2": "这是从「会用」到「会做」的第一段工程实践：把教培业务里的真实流程搬进系统。"
+               },
+               "skills": [
+                  "Java",
+                  "MySQL",
+                  "需求分析"
+               ],
+               "link": "",
+               "linkLabel": ""
+            }
+         ]
+      },
+      {
+         "id": 3,
+         "date": "2024 - 至今",
+         "title": "独立开源（业余）",
+         "position": "持续输出",
+         "company": "GitHub · kael-odin",
          "location": "中国 · 远程",
-         "summary": "做 AI 应用与开源工具：学术榜单、提示词镜像、BYOK 工具、本地优先智能体工作台，多个项目靠 GitHub Actions 每日自动更新。",
+         "summary": "把踩坑过程沉淀成开源项目与自动化流水线：学术 Skill 每日榜、提示词中文镜像站、代理池维护等，多个项目靠 GitHub Actions 每日自动更新、零服务器成本。",
          "projects": [
             {
                "name": "awesome-academic-research-skills · 学术 Skill 每日榜（85★）",
-               "date": "2026-06 - 至今",
+               "date": "2026.06 - 至今",
                "description": {
-                  "1": "面向中文用户的学术论文与科研 Agent Skill 排行榜：自动搜索、过滤并排名 GitHub 上的 Claude Code / Codex / OpenCode 科研 Skill，每日自动更新。",
-                  "2": "从选题、榜单流水线到中文呈现全链路自研，成为中文 AI 科研圈子里被引用最多的 Skill 榜单之一。"
+                  "1": "面向中文用户的学术论文与科研 Agent Skill 排行榜：自动搜索、过滤并排名 GitHub 上的 Claude Code / Codex / OpenCode 科研 Skill。",
+                  "2": "从选题、榜单流水线到中文呈现全链路自研，每日自动更新。"
                },
                "skills": [
                   "JavaScript",
                   "GitHub Actions",
-                  "Agent Skills",
                   "自动化榜单"
                ],
                "link": "https://github.com/kael-odin/awesome-academic-research-skills",
@@ -27,47 +97,18 @@
             },
             {
                "name": "prompts-chat-zh · 提示词中文镜像（2205 条）",
-               "date": "2026-09 - 至今",
+               "date": "2026.09 - 至今",
                "description": {
                   "1": "prompts.chat 的非官方简体中文镜像：2205 条公开提示词全部译成中文，中英对照、全文搜索、一键复制。",
-                  "2": "Astro 静态站 + 增量翻译流水线，部署在 GitHub Pages，翻译进度可持续追踪。"
+                  "2": "Astro 静态站 + 增量翻译流水线，部署在 GitHub Pages。"
                },
-               "skills": ["Astro", "JavaScript", "i18n", "GitHub Pages"],
+               "skills": [
+                  "Astro",
+                  "i18n",
+                  "GitHub Pages"
+               ],
                "link": "https://github.com/kael-odin/prompts-chat-zh",
                "linkLabel": "仓库"
-            },
-            {
-               "name": "Amadeus-Agent · 单文件 AI 智能体工作台",
-               "date": "2026-08 - 至今",
-               "description": {
-                  "1": "单文件 AI 智能体工作台：桌面 + 图标 + 窗口，每个图标就是一个独立对话 Agent；Vue 3.5 + AI SDK v7，零构建双击即用。",
-                  "2": "内置免费模型预设、联网搜索、视觉工具、记忆自治理与任务治理门禁，数据全在浏览器本地。"
-               },
-               "skills": ["Vue", "AI SDK", "Local-first", "Agent"],
-               "link": "https://github.com/kael-odin/Amadeus-Agent",
-               "linkLabel": "仓库"
-            }
-         ]
-      },
-      {
-         "id": 2,
-         "date": "2026-03 - 至今",
-         "title": "个人博客与数字花园主理人",
-         "position": "持续维护",
-         "company": "odin-saga",
-         "location": "中国 · 远程",
-         "summary": "基于 Next.js 的个人博客：技术、项目、随笔记录，支持 GitHub App 在网页前端可视化编辑内容。",
-         "projects": [
-            {
-               "name": "odin-saga · 可视化编辑的博客",
-               "date": "2026-03 - 至今",
-               "description": {
-                  "1": "Next.js App Router 搭建，文章、站点配置、图片都可以在网页前端可视化编辑，背后是 GitHub App 流水线。",
-                  "2": "同时是中文技术写作的试验场：项目复盘、工具评测、随笔都先发在这里。"
-               },
-               "skills": ["Next.js", "TypeScript", "Markdown", "Vercel"],
-               "link": "https://odin-saga.vercel.app",
-               "linkLabel": "在线访问"
             }
          ]
       }
@@ -75,16 +116,24 @@
    "positions_of_responsibility": [
       {
          "id": 1,
-         "date": "2026-06 - 至今",
-         "title": "开源榜单维护者",
-         "position": "维护者",
-         "company": "awesome-academic-research-skills",
-         "location": "中国 · 远程",
-         "summary": "维护中文科研 Skill 榜单的收录标准与每日更新流水线。",
+         "date": "2020 - 2025",
+         "title": "教培创业者",
+         "position": "创始人",
+         "org": "初高中课外辅导（杭州 / 南京 / 镇江）",
+         "link": "",
+         "linkLabel": "",
+         "skills": [
+            "教学运营",
+            "招生管理",
+            "微信小程序"
+         ],
+         "company": "初高中课外辅导（合作网点）",
+         "location": "杭州 / 南京 / 镇江",
          "description": {
-            "1": "制定 Skill 收录与排名规则，处理社区推荐与纠错，保持榜单每日可信更新。"
+            "1": "与杭州神舟家教、南京沄汐教育合作开展初高中教培，覆盖教学、招生与运营。",
+            "2": "综合判断后主动收缩业务，转向成长更快的互联网 AI 方向。"
          },
-         "skills": ["开源治理", "自动化", "内容策展"]
+         "summary": "在校期间开始创业，2025 年毕业后全职投入；带教学生 100+ 名，并独立开发微信小程序支撑业务运转。"
       }
    ]
 }
