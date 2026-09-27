@@ -65,16 +65,11 @@ const HeroContent = () => {
    );
 
    const name = useMemo(() => getName(language), [language]);
-   const initials = useMemo(
-      () =>
-         name
-            .split(/\s+/)
-            .slice(0, 2)
-            .map((w) => w[0] ?? "")
-            .join("")
-            .toUpperCase(),
-      [name],
-   );
+   // 统一标识用 Kael（英文名首词），跳过中文名
+   const initials = useMemo(() => {
+      const asciiWords = name.match(/[A-Za-z]+/g);
+      return (asciiWords?.[0] ?? "Kael").toUpperCase();
+   }, [name]);
    const intro = useMemo(() => getIntro(language), [language]);
    const roleLabel = useMemo(() => getRoleLabel(language), [language]);
    const headline = useMemo(() => getHeadline(language), [language]);

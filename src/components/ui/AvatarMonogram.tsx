@@ -8,14 +8,12 @@ import {
    MONOGRAM_SIZE,
 } from "./devAvatarData";
 
-/** "Your Name" -> "YN": first letter of the first two words. */
-const toInitials = (name: string) =>
-   name
-      .trim()
-      .split(/\s+/)
-      .slice(0, 2)
-      .map((word) => word.charAt(0).toUpperCase())
-      .join("");
+/** 统一标识用 Kael（英文名），跳过中文名词。 */
+const toInitials = (name: string) => {
+   const asciiWords = name.match(/[A-Za-z]+/g);
+   if (asciiWords?.length) return asciiWords[0];
+   return name.trim().split(/\s+/)[0] ?? name;
+};
 
 /**
  * Static flat disc with the initials in the hero's display face and accent.

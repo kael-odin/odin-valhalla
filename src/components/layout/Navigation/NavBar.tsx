@@ -66,16 +66,11 @@ const NavBar = ({
    onToggleMenu,
 }: NavBarProps) => {
    const { language } = useLanguage();
-   const initials = useMemo(
-      () =>
-         getName()
-            .split(/\s+/)
-            .slice(0, 2)
-            .map((w) => w[0] ?? "")
-            .join("")
-            .toUpperCase(),
-      [],
-   );
+   // 统一标识用 Kael（英文名首词），跳过中文名
+   const initials = useMemo(() => {
+      const asciiWords = getName().match(/[A-Za-z]+/g);
+      return (asciiWords?.[0] ?? "Kael").toUpperCase();
+   }, []);
    // The mount slide keeps its slow entrance; every later y change (hide on
    // scroll down, show on scroll up) uses the quicker slide.
    const [entered, setEntered] = useState(false);

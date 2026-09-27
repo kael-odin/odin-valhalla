@@ -77,17 +77,11 @@ const FooterContent = () => {
       () => getResume(language).resume.pdf_url.trim(),
       [language],
    );
-   const initials = useMemo(
-      () =>
-         name
-            .split(/\s+/)
-            .slice(0, 2)
-            .map((w) => w[0])
-            .join("")
-            .toUpperCase(),
-      [name],
-   );
-   const socialProfiles = useMemo(
+   // 统一标识用 Kael（英文名首词），跳过中文名
+   const initials = useMemo(() => {
+      const asciiWords = getName().match(/[A-Za-z]+/g);
+      return (asciiWords?.[0] ?? "Kael").toUpperCase();
+   }, []);   const socialProfiles = useMemo(
       () => getSocialProfiles(language),
       [language],
    );

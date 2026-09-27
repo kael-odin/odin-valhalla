@@ -1,13 +1,28 @@
 {
-   "languages": ["Python", "Java", "JavaScript", "HTML/CSS", "SQL"],
+   "languages": [
+      "Python",
+      "Java",
+      "JavaScript",
+      "HTML/CSS",
+      "SQL"
+   ],
    "frontend": [
       "Playwright",
       "HTML/CSS/JS",
       "WeChat Mini Programs",
       "React (template customization)"
    ],
-   "backend": ["MySQL", "Java", "Lightweight Python scripts"],
-   "cloud_devops": ["GitHub Actions", "Linux", "Docker (deployment)", "Git"],
+   "backend": [
+      "MySQL",
+      "Java",
+      "Lightweight Python scripts"
+   ],
+   "cloud_devops": [
+      "GitHub Actions",
+      "Linux",
+      "Docker (deployment)",
+      "Git"
+   ],
    "ai_ml": [
       "llama.cpp private deployment & tuning",
       "FastGPT / RAG knowledge base",
@@ -21,5 +36,41 @@
       "Teambition",
       "Copilot / Claude Code / Cursor",
       "VS Code"
+   ],
+   "cs_fundamentals": [
+      "Data Structures & Algorithms",
+      "Object-Oriented Programming",
+      "Computer Networks",
+      "Operating Systems",
+      "Software Engineering",
+      "Database Management Systems"
+   ],
+   "soft_skills": [
+      "Leadership",
+      "Problem Solving",
+      "Communication",
+      "Teamwork",
+      "Critical Thinking",
+      "Adaptability"
+   ],
+   "areas_of_interest": [
+      "Full-Stack Development",
+      "AI/ML Engineering",
+      "DevOps & Cloud",
+      "Open Source",
+      "AI Agents & MCP",
+      "Game Development"
+   ],
+   "hero_stack": [
+      "Python",
+      "JavaScript",
+      "Java",
+      "Playwright",
+      "Postman",
+      "MySQL",
+      "GitHub Actions",
+      "Linux",
+      "Git",
+      "HTML/CSS/JS"
    ]
 }
