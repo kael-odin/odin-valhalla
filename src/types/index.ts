@@ -252,8 +252,12 @@ export interface ResumeProject {
 }
 export interface ResumeEducation {
    school: string;
-   major: string;
+   /** 学位/项目名（当前数据形态） */
+   degree?: string;
+   /** 专业（旧数据形态） */
+   major?: string;
    date: string;
+   note?: string;
 }
 export interface ResumeSkillGroup {
    group: string;
