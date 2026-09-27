@@ -7,6 +7,7 @@ import useLanguage from "@hooks/useLanguage";
 import { st } from "@/i18n/sections";
 import { TEXT_MUTED, CYAN, MAX_WIDTH_WIDE } from "@/constants/theme";
 import CodingProfiles from "./CodingProfiles";
+import Resume from "@pages/resume/Resume";
 import StatsBand from "./StatsBand";
 import PageSection from "@components/layout/PageSection";
 import BrowserMockup from "@components/ui/BrowserMockup";
@@ -230,6 +231,9 @@ const Stats = () => {
             {/* Coding profiles own every competitive-programming figure,
                 so StatsBand above does not repeat them. */}
             <CodingProfiles githubUsername={githubUsername} />
+
+            {/* 在线简历：页面内直接展示 + 下载（原弹窗方案改为内嵌） */}
+            <Resume />
          </div>
       </PageSection>
    );

@@ -8,7 +8,7 @@
       "blog": "https://odin-saga.vercel.app/"
    },
    "resume": {
-      "pdf_url": "",
+      "pdf_url": "/resume-tangyong.pdf",
       "online_url": "https://www.kdocs.cn/l/cf07SLTdFqXp",
       "note": "还没有配置在线简历文档。把 data/resume.zh.json 里 resume.online_url 换成你的金山文档（kdocs.cn）/ WPS 分享链接，这里会直接内嵌预览。"
    },
