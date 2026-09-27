@@ -255,6 +255,11 @@ export interface ResumeEducation {
    major: string;
    date: string;
 }
+export interface ResumeSkillGroup {
+   group: string;
+   items: string[];
+}
+
 export interface ResumeFile {
    profile: ResumeProfile;
    resume: ResumeLinks;
@@ -262,7 +267,8 @@ export interface ResumeFile {
    highlights: string[];
    experience: ResumeExperience[];
    projects: ResumeProject[];
-   skills: string[];
+   // 分组对象或扁平字符串均可（当前数据为分组形态，UI 暂未消费）
+   skills: Array<string | ResumeSkillGroup>;
    education: ResumeEducation[];
 }
 
