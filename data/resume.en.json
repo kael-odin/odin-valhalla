@@ -9,7 +9,7 @@
    },
    "resume": {
       "pdf_url": "",
-      "online_url": "https://www.kdocs.cn/l/cdBeR0qXiLGY",
+      "online_url": "https://www.kdocs.cn/l/cf07SLTdFqXp",
       "note": "还没有配置在线简历文档。把 data/resume.zh.json 里 resume.online_url 换成你的金山文档（kdocs.cn）/ WPS 分享链接，这里会直接内嵌预览。"
    },
    "summary": "Engineer balancing QA depth and AI adoption: full-cycle testing across three proxy/data-collection product lines with 300+ defects driven to fix; led llama.cpp private deployment, FastGPT knowledge base and model selection; open-source and automation enthusiast.",
