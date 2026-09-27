@@ -142,7 +142,9 @@ const HeroContent = () => {
                   variants={heroHeadlineLine}
                >
                   {t(language, "hero.hiIm")}{" "}
-                  <span style={{ color: CYAN }}>{name}</span>
+                  <span className="whitespace-nowrap" style={{ color: CYAN }}>
+                     {name}
+                  </span>
                   {language === "zh" ? "。" : "."}
                </motion.span>
             </span>

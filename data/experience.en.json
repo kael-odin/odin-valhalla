@@ -72,7 +72,7 @@
          "summary": "Turning lessons learned into open-source projects and automation pipelines; several repos update daily via GitHub Actions at zero server cost.",
          "projects": [
             {
-               "name": "awesome-academic-research-skills · 学术 Skill 每日榜（85★）",
+               "name": "awesome-academic-research-skills · 学术 Skill 每日榜（110+★）",
                "date": "2026.06 - 至今",
                "description": {
                   "1": "面向中文用户的学术论文与科研 Agent Skill 排行榜：自动搜索、过滤并排名 GitHub 上的 Claude Code / Codex / OpenCode 科研 Skill。",

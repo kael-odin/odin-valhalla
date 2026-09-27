@@ -4,7 +4,7 @@
       {
          "id": 1,
          "title": "awesome-academic-research-skills · 学术 Skill 每日榜",
-         "description": "面向中文用户的学术论文与科研 Agent Skill 每日排行榜：自动搜索、过滤并排名 GitHub 上的 Claude Code / Codex / OpenCode 科研 Skill 仓库，每日自动更新，85 Star。",
+         "description": "面向中文用户的学术论文与科研 Agent Skill 每日排行榜：自动搜索、过滤并排名 GitHub 上的 Claude Code / Codex / OpenCode 科研 Skill 仓库，每日自动更新，110+ Star。",
          "date": "2026-06",
          "tools_tech": [
             "JavaScript",
