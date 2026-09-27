@@ -1,28 +1,13 @@
 {
-   "languages": [
-      "Python",
-      "Java",
-      "JavaScript",
-      "HTML/CSS",
-      "SQL"
-   ],
+   "languages": ["Python", "Java", "JavaScript", "HTML/CSS", "SQL"],
    "frontend": [
       "Playwright",
       "HTML/CSS/JS",
       "WeChat Mini Programs",
       "React (template customization)"
    ],
-   "backend": [
-      "MySQL",
-      "Java",
-      "Lightweight Python scripts"
-   ],
-   "cloud_devops": [
-      "GitHub Actions",
-      "Linux",
-      "Docker (deployment)",
-      "Git"
-   ],
+   "backend": ["MySQL", "Java", "Lightweight Python scripts"],
+   "cloud_devops": ["GitHub Actions", "Linux", "Docker (deployment)", "Git"],
    "ai_ml": [
       "llama.cpp private deployment & tuning",
       "FastGPT / RAG knowledge base",

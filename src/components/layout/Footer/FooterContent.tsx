@@ -81,7 +81,8 @@ const FooterContent = () => {
    const initials = useMemo(() => {
       const asciiWords = getName().match(/[A-Za-z]+/g);
       return (asciiWords?.[0] ?? "Kael").toUpperCase();
-   }, []);   const socialProfiles = useMemo(
+   }, []);
+   const socialProfiles = useMemo(
       () => getSocialProfiles(language),
       [language],
    );
