@@ -2,31 +2,35 @@ import { useMemo } from "react";
 import { Download, ExternalLink } from "lucide-react";
 import useLanguage from "@hooks/useLanguage";
 import { getResume } from "@data/resume";
-import { t } from "@/i18n/ui";
+import { withBase } from "@utils/withBase";
 import { st } from "@/i18n/sections";
 import { MAX_WIDTH_WIDE } from "@/constants/theme";
+import PageSection from "@components/layout/PageSection";
 import BrowserMockup from "@components/ui/BrowserMockup";
 
 /**
- * 简历内嵌块：挂在「数据」区块尾部，页面内直接展示简历
- * （浏览器原生 PDF 预览优先，无第三方登录墙），
+ * 简历分区：紧跟首屏（Hero 之后第一个内容分区），访客下滑即见、
+ * 无需点击。浏览器原生 PDF 预览优先（无第三方登录墙），
  * 按钮行提供「下载完整简历」与 kdocs 在线版入口。
  */
 const Resume = () => {
    const { language } = useLanguage();
    const resume = useMemo(() => getResume(language), [language]);
 
-   const pdfUrl = resume.resume.pdf_url.trim();
+   // 根绝对路径必须拼上 BASE_URL（GitHub Pages 子路径部署），否则 404
+   const pdfUrl = withBase(resume.resume.pdf_url);
    const onlineUrl = resume.resume.online_url.trim();
    // 本地 PDF 优先（无第三方登录墙）；两者都没有时回退在线文档
    const embedUrl = pdfUrl ? `${pdfUrl}#view=FitH` : onlineUrl;
 
    return (
-      <div
-         id="resume-embed"
-         style={{ maxWidth: MAX_WIDTH_WIDE, margin: "0 auto", marginTop: 40 }}
+      <PageSection
+         id="resume"
+         title={st(language, "resume.title")}
+         subtitle={st(language, "resume.sub")}
+         maxWidth={MAX_WIDTH_WIDE}
       >
-         <BrowserMockup path={[t(language, "resume.embedTitle")]}>
+         <BrowserMockup path={[st(language, "resume.embedTitle")]}>
             {embedUrl ? (
                <iframe
                   src={embedUrl}
@@ -87,7 +91,7 @@ const Resume = () => {
                </a>
             )}
          </div>
-      </div>
+      </PageSection>
    );
 };
 

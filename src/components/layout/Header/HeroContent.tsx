@@ -3,6 +3,7 @@ import { motion } from "motion/react";
 import { ArrowDownRight, Download, FileText } from "lucide-react";
 import { getHeadline, getIntro, getName, getRoleLabel } from "@data/personal";
 import { getResume } from "@data/resume";
+import { withBase } from "@utils/withBase";
 import { CYAN, GREEN, MONO_FONT, TEXT_SECONDARY } from "@/constants/theme";
 import ErrorBoundary from "@components/common/ErrorBoundary";
 import useBreakpoint from "@hooks/useBreakpoint";
@@ -58,7 +59,8 @@ const HeroLatestPlaceholder = () => {
 const HeroContent = () => {
    const { language } = useLanguage();
    const resumePdfUrl = useMemo(
-      () => getResume(language).resume.pdf_url.trim(),
+      // 根绝对路径拼上 BASE_URL，GitHub Pages 子路径下才能命中文件
+      () => withBase(getResume(language).resume.pdf_url),
       [language],
    );
 

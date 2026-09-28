@@ -2,6 +2,7 @@ import type { Language } from "@hooks/languageContext";
 import { st } from "@/i18n/sections";
 
 export const SECTION_IDS = [
+   "resume",
    "about",
    "experience",
    "education",
@@ -14,6 +15,7 @@ export const SECTION_IDS = [
 ] as const;
 
 export const SECTION_SURFACES: Record<string, string> = {
+   resume: "section-dark",
    about: "section-darker",
    experience: "section-dark",
    education: "section-darker",
@@ -33,6 +35,7 @@ export const getContentSections = (lang: Language) =>
    }));
 
 export const CONTENT_SECTIONS = [
+   { id: "resume", label: "Resume", surface: "section-dark" },
    { id: "about", label: "About", surface: "section-darker" },
    { id: "experience", label: "Experience", surface: "section-dark" },
    { id: "education", label: "Education", surface: "section-darker" },

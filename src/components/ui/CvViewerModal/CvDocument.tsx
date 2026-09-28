@@ -1,6 +1,7 @@
 import { useMemo } from "react";
 import { Download, ExternalLink, FileText, Info } from "lucide-react";
 import { getResume } from "@data/resume";
+import { withBase } from "@utils/withBase";
 import useLanguage from "@hooks/useLanguage";
 import { t } from "@/i18n/ui";
 import { CYAN, TEXT_MUTED, TEXT_SECONDARY } from "@/constants/theme";
@@ -15,7 +16,7 @@ const CvDocument = () => {
    const { language } = useLanguage();
    const resume = useMemo(() => getResume(language), [language]);
 
-   const embedUrl = resume.resume.online_url || resume.resume.pdf_url || "";
+   const embedUrl = withBase(resume.resume.pdf_url) || resume.resume.online_url;
    const hasEmbed = embedUrl.length > 0;
 
    return (
@@ -64,7 +65,7 @@ const CvDocument = () => {
                   <div style={{ display: "flex", gap: 8 }}>
                      {resume.resume.pdf_url.trim() && (
                         <a
-                           href={resume.resume.pdf_url}
+                           href={withBase(resume.resume.pdf_url)}
                            download
                            className="btn-outline"
                            style={{
