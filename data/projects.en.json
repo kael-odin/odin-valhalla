@@ -3,109 +3,133 @@
    "featured_projects": [
       {
          "id": 1,
-         "title": "awesome-academic-research-skills · daily research-skill ranking",
-         "description": "A daily ranking of research Agent Skills for Chinese-speaking users: auto-discovers, filters, and ranks Claude Code / Codex / OpenCode research-skill repos on GitHub, refreshed daily, 110+ stars.",
+         "title": "awesome-academic-research-skills · daily research-skill ranking (225★)",
+         "description": "A daily ranking of academic and research Agent Skills for Chinese users: automatically searches, filters and ranks research-skill repos built for Claude Code / Codex / OpenCode. Updated daily, 225 stars.",
          "date": "Jun 2026",
          "tools_tech": [
-            "JavaScript",
+            "Python",
             "GitHub Actions",
             "Agent Skills",
             "Automation"
          ],
          "features": [
-            "Auto-discovers and ranks research skills daily, presented in Chinese",
-            "Covers the Claude Code / Codex / OpenCode ecosystems",
-            "Open inclusion criteria and ranking rules, community suggestions welcome",
-            "Pure static site plus Actions, zero server cost",
-            "Chinese guides included, beginner-friendly for researchers",
-            "Maintained long-term, data stays fresh"
+            "Daily automated search and ranking, presented in Chinese",
+            "Covers Claude Code / Codex / OpenCode ecosystems",
+            "Public inclusion criteria and ranking rules",
+            "Static site plus Actions: zero server cost",
+            "Chinese write-ups for newcomers",
+            "Maintained continuously, data stays fresh"
          ],
          "github": "https://github.com/kael-odin/awesome-academic-research-skills",
          "live": "https://kael-odin.github.io/awesome-academic-research-skills/"
       },
       {
          "id": 2,
-         "title": "prompts-chat-zh · Chinese prompt mirror",
-         "description": "Unofficial Simplified-Chinese mirror of prompts.chat: all 2,205 public prompts translated, bilingual side-by-side, full-text search, one-click copy. Astro static site on GitHub Pages.",
-         "date": "Sep 2026",
-         "tools_tech": ["Astro", "JavaScript", "i18n", "Pagefind"],
+         "title": "Amazon scraping anti-bot guide · official Thordata repo (163★)",
+         "description": "An official Thordata guide I created and maintain: CAPTCHA detection and request strategy for Amazon scraping, with runnable Scraper API and Python SDK examples. 163 stars; it is the content entry point for the Web Scraper product.",
+         "date": "Feb 2026",
+         "tools_tech": ["Python", "Web Scraping", "Anti-bot", "Technical writing"],
          "features": [
-            "All 2,205 prompts in EN–ZH对照 side-by-side Chinese",
-            "Full-text search plus one-click copy",
-            "Incremental translation pipeline with trackable progress",
-            "Astro static site, instant to open",
-            "CC0 sources, open access",
-            "Keeps syncing upstream updates"
+            "End-to-end breakdown of CAPTCHA detection and request strategy",
+            "Runnable Scraper API and Python SDK examples",
+            "163 stars, long used as the product content entry",
+            "Bilingual, written for scraping developers"
          ],
-         "github": "https://github.com/kael-odin/prompts-chat-zh",
-         "live": "https://kael-odin.github.io/prompts-chat-zh/"
+         "github": "https://github.com/Thordata/how-to-bypass-amazon-captcha-when-scraping",
+         "live": "https://www.thordata.com/products/web-scraper/amazon"
       }
    ],
    "collaborative_projects": [
       {
          "id": 3,
-         "title": "openworker · Chinese localization (27★)",
-         "description": "A Chinese-localized fork of OpenWorker: tracks upstream, fully translated, ships with model keys, local-first — a localized release that gets daily AI tasks actually done.",
-         "date": "Jul 2026",
-         "tools_tech": ["Python", "LLM", "Local-first", "Localization"],
+         "title": "codex-plugins-zh · official plugin marketplace in Chinese (43★)",
+         "description": "Auto-syncs the official Codex plugin repo, lossless Chinese localization (diff-verifiable), daily updates and a visual navigation site; the same mechanism powers claude-plugins-zh and zcode-plugins-zh.",
+         "date": "Oct 2026",
+         "tools_tech": ["JavaScript", "i18n", "GitHub Actions"],
          "features": [
-            "Tracks upstream releases with a fully Chinese UI",
-            "Ships with model keys, works out of the box",
-            "Local-first, data never leaves the machine",
-            "Task flows tuned for Chinese-speaking users"
+            "Automatic upstream sync, updated daily",
+            "Machine-verifiable localization diffs",
+            "Chinese navigation site grouped by purpose",
+            "Reused across Claude Code and ZCode"
          ],
-         "github": "https://github.com/kael-odin/openworker",
+         "github": "https://github.com/kael-odin/codex-plugins-zh",
+         "live": "https://kael-odin.github.io/codex-plugins-zh/"
+      },
+      {
+         "id": 4,
+         "title": "2080ti 22G · 262K long-context local inference (10★)",
+         "description": "27B model at 262K context and 36.6 tok/s on a single RTX 2080 Ti 22G: a 12-change Windows / sm_75 port, MTP speculative decoding and q8_0 KV cache, with a complete reproduction chain.",
+         "date": "Sep 2026",
+         "tools_tech": ["llama.cpp", "CUDA", "KV cache", "Quantization"],
+         "features": [
+            "262K context on a single 22GB card",
+            "36.6 tok/s decode with no long-context drop",
+            "Windows / sm_75 port and build scripts",
+            "Commit-locked reproduction chain"
+         ],
+         "github": "https://github.com/kael-odin/2080ti-22G-kvmem-qwen3.8-27B-256K-36.6toks",
          "live": "#"
       }
    ],
    "other_projects": [
       {
-         "id": 4,
-         "title": "Amadeus-Agent · single-file AI workbench",
-         "description": "A single-file AI agent workbench: desktop plus icons plus windows, each icon an independent chat agent. Vue 3.5 with AI SDK v7, zero build, double-click to run, all data local to the browser.",
-         "date": "Aug 2026",
-         "tools_tech": ["Vue", "TypeScript", "AI SDK", "Local-first"],
+         "id": 5,
+         "title": "prompts-chat-zh · prompts in Chinese",
+         "description": "An unofficial Simplified Chinese mirror of prompts.chat: 2,205 public prompts translated, bilingual, full-text search and one-click copy, built with Astro and deployed on GitHub Pages.",
+         "date": "Sep 2026",
+         "tools_tech": ["Astro", "JavaScript", "i18n", "Pagefind"],
          "features": [
-            "One HTML file, zero build, double-click to run",
-            "Parallel multi-agent chats with window management",
-            "Built-in free-model presets and web search",
-            "Memory self-governance and task guardrails"
+            "2,205 prompts, bilingual",
+            "Full-text search and one-click copy",
+            "Incremental translation pipeline with progress",
+            "Static Astro site, ready to open"
          ],
-         "github": "https://github.com/kael-odin/Amadeus-Agent",
+         "github": "https://github.com/kael-odin/prompts-chat-zh",
+         "live": "https://kael-odin.github.io/prompts-chat-zh/"
+      },
+      {
+         "id": 6,
+         "title": "Heimdall · site replication engine",
+         "description": "Give it a URL and it returns a site map, a runnable clone and an intelligence pack: multi-viewport diffing and fix-packet generation for local replication and acceptance work.",
+         "date": "Sep 2026",
+         "tools_tech": ["Node.js", "JavaScript", "Playwright", "Visual diff"],
+         "features": [
+            "Site map and runnable clone",
+            "Multi-viewport diffing and fix packets",
+            "Local workbench, no target data uploaded",
+            "Open source and reusable"
+         ],
+         "github": "https://github.com/kael-odin/heimdall",
          "live": "#"
       },
       {
-         "id": 5,
-         "title": "Manus-byok · desktop BYOK",
-         "description": "BYOK for the Manus desktop app: reverse-engineered socket.io protocol with a local emulated server driving the official UI to render your own models, keeping the real account marketplace and per-model cost stats.",
+         "id": 7,
+         "title": "Amadeus-Agent · single-file AI workbench",
+         "description": "A single-file AI agent workbench: desktop, icons and windows, each icon an independent chat agent. Vue 3.5 + AI SDK v7, no build step, data stays in the browser.",
          "date": "Aug 2026",
-         "tools_tech": [
-            "JavaScript",
-            "socket.io",
-            "Reverse engineering",
-            "BYOK"
-         ],
+         "tools_tech": ["Vue", "TypeScript", "AI SDK", "Local-first"],
          "features": [
-            "Local emulated server driving the official UI",
-            "Bring your own models with per-model cost stats",
-            "Keeps the real-account marketplace working"
+            "One HTML file, double-click to run",
+            "Parallel agents with window management",
+            "Built-in free model presets and web search",
+            "Memory and task governance gates"
          ],
-         "github": "https://github.com/kael-odin/Manus-byok",
+         "github": "https://github.com/kael-odin/Amadeus-Agent",
          "live": "#"
       }
    ],
    "community_projects": [
       {
-         "id": 6,
+         "id": 8,
          "title": "odin-heim · OS-style homepage template",
-         "description": "An interactive OS-inspired personal homepage template: terminal boot into your digital desktop. Edit one config file to make it yours. React plus Vite plus GitHub Pages.",
+         "description": "An interactive personal homepage template inspired by an operating system: terminal boot into a digital desktop. Change one config file to make it yours, built with React + Vite on GitHub Pages.",
          "date": "Sep 2026",
          "tools_tech": ["React", "Vite", "CSS animation", "GitHub Pages"],
          "features": [
-            "Typewriter terminal boot animation",
-            "Draggable icons and a window manager",
-            "Single-file config, works out of the box",
-            "Bilingual README with screenshots"
+            "Typing terminal boot animation",
+            "Draggable icons and window manager",
+            "Single-file config, ready to use",
+            "Bilingual README and screenshots"
          ],
          "github": "https://github.com/kael-odin/odin-heim",
          "live": "https://kael-odin.github.io/odin-heim/"
@@ -114,25 +138,17 @@
    "open_source_contributions": [
       {
          "repo": "kael-odin/awesome-academic-research-skills",
-         "stars": 85,
-         "title": "Research-skill ranking: ranking pipeline and Chinese presentation",
+         "stars": 225,
+         "title": "Daily research-skill ranking: pipeline and Chinese presentation",
          "url": "https://github.com/kael-odin/awesome-academic-research-skills/pull/1",
          "merged_at": "2026-09-14",
-         "status": "merged"
-      },
-      {
-         "repo": "kael-odin/prompts-chat-zh",
-         "stars": 1,
-         "title": "Prompt mirror: incremental translation pipeline",
-         "url": "https://github.com/kael-odin/prompts-chat-zh/pull/1",
-         "merged_at": "2026-09-11",
          "status": "merged"
       }
    ],
    "community_discussions": [
       {
          "repo": "kael-odin/awesome-academic-research-skills",
-         "title": "Skill inclusion criteria and ranking rules",
+         "title": "Inclusion criteria and ranking rules",
          "url": "https://github.com/kael-odin/awesome-academic-research-skills/discussions/1",
          "status": "accepted"
       }

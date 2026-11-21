@@ -10,7 +10,7 @@ import {
    getOtherProjects,
 } from "@data/projects";
 import { getProjectCover } from "@pages/projects/covers/coverRegistry";
-import projectsData from "../../data/projects.json";
+import projectsData from "../../data/projects.zh.json";
 
 const allProjects = [
    ...getFeaturedProjects(),

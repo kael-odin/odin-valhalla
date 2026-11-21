@@ -3,11 +3,11 @@
    "featured_projects": [
       {
          "id": 1,
-         "title": "awesome-academic-research-skills · 学术 Skill 每日榜",
-         "description": "面向中文用户的学术论文与科研 Agent Skill 每日排行榜：自动搜索、过滤并排名 GitHub 上的 Claude Code / Codex / OpenCode 科研 Skill 仓库，每日自动更新，110+ Star。",
+         "title": "awesome-academic-research-skills · 学术 Skill 每日榜（225★）",
+         "description": "面向中文用户的学术论文与科研 Agent Skill 每日排行榜：自动搜索、过滤并排名 GitHub 上的 Claude Code / Codex / OpenCode 科研 Skill 仓库，每日自动更新，已获 225 Star。",
          "date": "2026-06",
          "tools_tech": [
-            "JavaScript",
+            "Python",
             "GitHub Actions",
             "Agent Skills",
             "自动化"
@@ -25,6 +25,55 @@
       },
       {
          "id": 2,
+         "title": "Amazon 采集反爬指南 · Thordata 官方仓库（163★）",
+         "description": "由我创建并维护的 Thordata 官方指南：Amazon 采集中的验证码识别与规避、请求策略，配套 Scraper API 与 Python SDK 示例。已获 163 Star，是官网 Web Scraper 产品的内容入口。",
+         "date": "2026-02",
+         "tools_tech": ["Python", "Web Scraping", "Anti-bot", "技术写作"],
+         "features": [
+            "验证码检测与请求策略的完整拆解",
+            "Scraper API / Python SDK 可运行示例",
+            "163 Star，长期作为官网产品内容入口",
+            "中英双语，面向采集开发者"
+         ],
+         "github": "https://github.com/Thordata/how-to-bypass-amazon-captcha-when-scraping",
+         "live": "https://www.thordata.com/products/web-scraper/amazon"
+      }
+   ],
+   "collaborative_projects": [
+      {
+         "id": 3,
+         "title": "codex-plugins-zh · 官方插件中文市场（43★）",
+         "description": "Codex 官方插件仓库自动同步、无损汉化（差异机器可证）、每日更新与可视化中文导航站；同一套机制复用到 claude-plugins-zh 与 zcode-plugins-zh。",
+         "date": "2026-10",
+         "tools_tech": ["JavaScript", "i18n", "GitHub Actions"],
+         "features": [
+            "官方仓库自动同步，每日更新",
+            "汉化差异机器可验证，不掺私货",
+            "中文导航站，按用途分类",
+            "跨生态复用到 Claude Code / ZCode"
+         ],
+         "github": "https://github.com/kael-odin/codex-plugins-zh",
+         "live": "https://kael-odin.github.io/codex-plugins-zh/"
+      },
+      {
+         "id": 4,
+         "title": "2080ti 22G · 262K 长上下文本地推理（10★）",
+         "description": "在单张 RTX 2080 Ti 22G 上把 27B 模型跑到 262K 上下文、36.6 tok/s：Windows / sm_75 移植 12 项改动、MTP 投机解码、q8_0 KV 缓存，附完整复现链。",
+         "date": "2026-09",
+         "tools_tech": ["llama.cpp", "CUDA", "KV Cache", "量化"],
+         "features": [
+            "单卡 22G 跑 262K 上下文",
+            "decode 36.6 tok/s，长上下文不掉速",
+            "Windows / sm_75 移植与构建脚本",
+            "commit 锁定的复现链，别人照着能跑"
+         ],
+         "github": "https://github.com/kael-odin/2080ti-22G-kvmem-qwen3.8-27B-256K-36.6toks",
+         "live": "#"
+      }
+   ],
+   "other_projects": [
+      {
+         "id": 5,
          "title": "prompts-chat-zh · 提示词中文镜像",
          "description": "prompts.chat 的非官方简体中文镜像：2205 条公开提示词全部译成中文，中英对照、全文搜索、一键复制，Astro 静态站部署在 GitHub Pages。",
          "date": "2026-09",
@@ -33,34 +82,28 @@
             "2205 条提示词全部中英对照",
             "全文搜索 + 一键复制",
             "增量翻译流水线，进度可追踪",
-            "Astro 静态站，打开即用",
-            "CC0 来源，开放获取",
-            "持续同步上游更新"
+            "Astro 静态站，打开即用"
          ],
          "github": "https://github.com/kael-odin/prompts-chat-zh",
          "live": "https://kael-odin.github.io/prompts-chat-zh/"
-      }
-   ],
-   "collaborative_projects": [
+      },
       {
-         "id": 3,
-         "title": "openworker · 中文汉化版（27★）",
-         "description": "OpenWorker 中文汉化 fork：追平上游、全量汉化、自带模型 Key、本地优先——把 AI 日常任务真正做完的汉化发行版。",
-         "date": "2026-07",
-         "tools_tech": ["Python", "LLM", "本地优先", "汉化"],
+         "id": 6,
+         "title": "Heimdall · 网址复刻引擎",
+         "description": "输入 URL，输出站点图谱、可运行克隆与情报包：多视口差异比对、修复包生成，作为本地站点复刻与验收工作台使用。",
+         "date": "2026-09",
+         "tools_tech": ["Node.js", "JavaScript", "Playwright", "视觉比对"],
          "features": [
-            "紧跟上游版本，全量中文界面",
-            "自带模型 Key，开箱即用",
-            "本地优先，数据不出本机",
-            "面向中文用户的任务流优化"
+            "站点图谱与可运行克隆",
+            "多视口差异比对与修复包",
+            "本地工作台，不上传目标站点数据",
+            "开源可复用"
          ],
-         "github": "https://github.com/kael-odin/openworker",
+         "github": "https://github.com/kael-odin/heimdall",
          "live": "#"
-      }
-   ],
-   "other_projects": [
+      },
       {
-         "id": 4,
+         "id": 7,
          "title": "Amadeus-Agent · 单文件 AI 工作台",
          "description": "单文件 AI 智能体工作台：桌面 + 图标 + 窗口，每个图标就是一个独立对话 Agent。Vue 3.5 + AI SDK v7，零构建双击即用，数据全在浏览器本地。",
          "date": "2026-08",
@@ -73,25 +116,11 @@
          ],
          "github": "https://github.com/kael-odin/Amadeus-Agent",
          "live": "#"
-      },
-      {
-         "id": 5,
-         "title": "Manus-byok · 桌面端 BYOK",
-         "description": "Manus 桌面端 BYOK：逆向 socket.io 协议，本地仿真服务端驱动官方 UI 渲染自选大模型，保留真实账号体系与分模型计费统计。",
-         "date": "2026-08",
-         "tools_tech": ["JavaScript", "socket.io", "逆向工程", "BYOK"],
-         "features": [
-            "本地仿真服务端，驱动官方 UI",
-            "自选大模型，分模型成本统计",
-            "保留真实账号 marketplace 能力"
-         ],
-         "github": "https://github.com/kael-odin/Manus-byok",
-         "live": "#"
       }
    ],
    "community_projects": [
       {
-         "id": 6,
+         "id": 8,
          "title": "odin-heim · OS 风个人主页模板",
          "description": "以「操作系统」为灵感的互动个人主页模板：终端开机 → 数字桌面。改一个配置文件就能变成你自己的主页，React + Vite + GitHub Pages。",
          "date": "2026-09",
@@ -109,18 +138,10 @@
    "open_source_contributions": [
       {
          "repo": "kael-odin/awesome-academic-research-skills",
-         "stars": 85,
+         "stars": 225,
          "title": "学术 Skill 每日榜：榜单流水线与中文呈现",
          "url": "https://github.com/kael-odin/awesome-academic-research-skills/pull/1",
          "merged_at": "2026-09-14",
-         "status": "merged"
-      },
-      {
-         "repo": "kael-odin/prompts-chat-zh",
-         "stars": 1,
-         "title": "提示词镜像：增量翻译流水线",
-         "url": "https://github.com/kael-odin/prompts-chat-zh/pull/1",
-         "merged_at": "2026-09-11",
          "status": "merged"
       }
    ],

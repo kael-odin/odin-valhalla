@@ -17,6 +17,8 @@ const CertBadgeShowcase = ({ certifications }: CertBadgeShowcaseProps) => {
    const { isMobile } = useBreakpoint();
    const badgeSize = isMobile ? 90 : 120;
 
+   if (certifications.length === 0) return null;
+
    return (
       <div>
          <motion.div

@@ -1,25 +1,32 @@
 {
-   "languages": ["Python", "Java", "JavaScript", "HTML/CSS", "SQL"],
+   "languages": ["Python", "TypeScript", "JavaScript", "Java", "SQL"],
    "frontend": [
-      "Playwright",
-      "HTML/CSS/JS",
-      "WeChat Mini Programs",
-      "React (template customization)"
+      "React 19",
+      "Next.js 16",
+      "Vue 3",
+      "Tailwind CSS",
+      "Electron",
+      "WeChat Mini Programs"
    ],
-   "backend": ["MySQL", "Java", "Lightweight Python scripts"],
-   "cloud_devops": ["GitHub Actions", "Linux", "Docker (deployment)", "Git"],
+   "backend": ["FastAPI", "Node.js", "MySQL", "PostgreSQL", "ClickHouse", "Redis"],
+   "cloud_devops": ["Docker", "Linux", "Git", "GitHub Actions", "Nginx", "Cloudflare", "SSH"],
    "ai_ml": [
-      "llama.cpp private deployment & tuning",
+      "llama.cpp / KVMem source port & tuning",
+      "GGUF quantization (IQ3_S, q8_0 KV)",
+      "MTP speculative decoding",
+      "Long-context KV cache",
       "FastGPT / RAG knowledge base",
       "Prompt engineering",
       "Model evaluation & selection",
-      "ComfyUI / Stable Diffusion / Midjourney"
+      "MCP & Agent Skills",
+      "ComfyUI / Stable Diffusion"
    ],
    "tools_platforms": [
+      "Playwright",
       "Postman",
       "Charles / DevTools",
       "Teambition",
-      "Copilot / Claude Code / Cursor",
+      "Claude Code / Codex / Cursor",
       "VS Code"
    ],
    "cs_fundamentals": [
@@ -31,31 +38,29 @@
       "Database Management Systems"
    ],
    "soft_skills": [
-      "Leadership",
-      "Problem Solving",
-      "Communication",
-      "Teamwork",
-      "Critical Thinking",
-      "Adaptability"
+      "Ownership",
+      "Debugging",
+      "Technical writing",
+      "Cross-team communication",
+      "Evidence-based judgment"
    ],
    "areas_of_interest": [
-      "Full-Stack Development",
-      "AI/ML Engineering",
-      "DevOps & Cloud",
-      "Open Source",
-      "AI Agents & MCP",
-      "Game Development"
+      "LLM inference",
+      "Agent systems",
+      "Full-stack product",
+      "Test engineering",
+      "Open Source"
    ],
    "hero_stack": [
       "Python",
-      "JavaScript",
-      "Java",
+      "TypeScript",
+      "React 19",
+      "Next.js 16",
       "Playwright",
       "Postman",
       "MySQL",
-      "GitHub Actions",
+      "Docker",
       "Linux",
-      "Git",
-      "HTML/CSS/JS"
+      "Git"
    ]
 }

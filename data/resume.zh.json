@@ -1,7 +1,7 @@
 {
    "profile": {
       "name": "汤勇 Kael Odin",
-      "title": "AI 应用工程师 / 测试工程师",
+      "title": "AI 应用 / 全栈工程师",
       "location": "江苏 · 徐州",
       "email": "sczxtangyong@163.com",
       "github": "https://github.com/kael-odin",
@@ -9,14 +9,16 @@
    },
    "resume": {
       "pdf_url": "/resume-tangyong.pdf",
-      "online_url": "https://www.kdocs.cn/l/cf07SLTdFqXp",
-      "note": "还没有配置在线简历文档。把 data/resume.zh.json 里 resume.online_url 换成你的金山文档（kdocs.cn）/ WPS 分享链接，这里会直接内嵌预览。"
+      "online_url": "",
+      "note": ""
    },
-   "summary": "测试工程与 AI 落地双线并进的工程师：三条代理/数据采集产品线的测试全流程与 300+ 缺陷修复推动；llama.cpp 私有化部署、FastGPT 知识库与模型选型评测的主导者；业余开源与自动化流水线爱好者。",
+   "summary": "一年内从功能测试做到三条代理/数据采集产品线的质量体系：108 个接口实测底表、83 条接口坑位、每日自动巡检，累计推动修复 300+ 缺陷。同时把大模型真正跑起来：llama.cpp 源码移植、单卡 22G 跑 262K 上下文、FastGPT 企业知识库。业余开源：225★ 科研 Skill 榜单、163★ 采集反爬指南、43★ 插件中文市场。",
    "highlights": [
-      "测试工程：Thordata / CoreClaw / XSpark 三条产品线功能测试全流程，设计 IP 连通率、接口稳定性等专项测试，累计发现并推动修复缺陷 300+",
-      "AI 落地：llama.cpp 私有化部署大模型并调优参数，FastGPT 搭建企业知识库，主导模型/Agent 工具选型评测，为 50+ 名同事提供 AI 支持",
-      "学习与自驱：高考 660 分考入浙江大学理科试验班（竺可桢学院），肄业后重新高考，半工半读完成智能科学与技术（AI 方向）本科"
+      "质量工程：Thordata / CoreClaw / XSpark 三条产品线，108 个接口底表、83 条接口坑位、每日 21 项自动 + 16 项浏览器检查，累计推动修复缺陷 300+",
+      "资金与数据：CRM ↔ 后台 480 笔订单、双边 ¥3,267 全量对账一致；查出 104 笔漏推、充值实付金额丢失等 P0/P1",
+      "大模型工程：llama.cpp / KVMem 源码移植（Windows / sm_75，12 项改动），单卡 22G 跑到 262K 上下文、36.6 tok/s；FastGPT 企业知识库，支撑 50+ 同事",
+      "开源与全栈：225★ 科研 Skill 榜单、163★ Thordata 官方采集指南、43★ 插件中文市场；Next.js / React / Electron / Python 均可独立交付",
+      "学习与自驱：高考 660 分（全省 1609 名）考入浙江大学理科试验班，肄业后重新高考，半工半读完成智能科学与技术（AI 方向）本科"
    ],
    "experience": [
       {
@@ -24,10 +26,12 @@
          "org": "徐州灵匠信息科技有限公司",
          "date": "2025.11 — 至今",
          "bullets": [
-            "负责 Thordata（企业级代理与数据采集，对标 Bright Data）、CoreClaw（网页数据采集平台，对标 Apify）、XSpark（静态 ISP 代理）三条产品线的功能测试全流程",
-            "设计专项测试：IP 连通率与响应延迟、会话保持与轮换正确性、采集成功率与数据交付准确性、HTTP(S)/SOCKS5 多协议兼容",
-            "接口测试（Postman + 抓包）+ Web UI 自动化（Playwright + pytest）+ SQL 数据核对，沉淀可复用用例与脚本",
-            "推动企业 AI 落地：llama.cpp 私有化部署 + FastGPT 知识库 + 模型选型评测，常态化 AI 支持"
+            "负责 Thordata（企业级代理与数据采集，对标 Bright Data）、CoreClaw（网页数据采集平台，对标 Apify）、XSpark（静态 ISP 代理）三条产品线的质量全流程",
+            "建立 108 个接口端点实测底表与 83 条接口坑位；自建每日巡检 21 项自动 + 16 项浏览器检查，钉钉日报直达责任人；问题台账 88 条，修复 / 关闭 52 条",
+            "资金链路验证：CRM ↔ 后台 480 笔共同订单、¥3,267 双边一致；查出 104 笔订单漏推、充值实付金额全链路丢失",
+            "安全测试：自建八模块 DAST，拦下证件照公网可下载、回调无签名、JWT 密钥互通等越权链",
+            "公共开放 API 正式全量交付：14 个接口 + 真实支付，结论 0 个 P0/P1",
+            "推动企业 AI 落地：llama.cpp 私有化部署 + FastGPT 知识库 + 模型选型评测，支撑 50+ 同事"
          ]
       },
       {
@@ -45,8 +49,9 @@
          "org": "GitHub · kael-odin",
          "date": "2024 — 至今",
          "bullets": [
-            "awesome-academic-research-skills：学术 Skill 每日榜（110+★），GitHub Actions 自动更新",
-            "prompts-chat-zh：2205 条提示词中英对照镜像；openworker 全量中文汉化（27★）"
+            "awesome-academic-research-skills：学术 Skill 每日榜（225★），GitHub Actions 自动更新",
+            "Thordata 官方采集反爬指南（163★，由我创建）；codex-plugins-zh 插件中文市场（43★）",
+            "2080ti 22G 长上下文方案（10★）：单卡 262K 上下文、36.6 tok/s，附完整复现链"
          ]
       }
    ],
@@ -58,18 +63,18 @@
       },
       {
          "name": "awesome-academic-research-skills",
-         "desc": "学术 Skill 每日榜 · 110+★",
+         "desc": "学术 Skill 每日榜 · 225★",
          "url": "https://github.com/kael-odin/awesome-academic-research-skills"
       },
       {
-         "name": "prompts-chat-zh",
-         "desc": "2205 条提示词中英镜像",
-         "url": "https://github.com/kael-odin/prompts-chat-zh"
+         "name": "Thordata Amazon 采集指南",
+         "desc": "官方仓库 · 163★",
+         "url": "https://github.com/Thordata/how-to-bypass-amazon-captcha-when-scraping"
       },
       {
-         "name": "校园智能导航系统",
-         "desc": "机器学习课程设计 · 数据采集与前端联调",
-         "url": ""
+         "name": "2080ti 22G · 262K 长上下文",
+         "desc": "本地推理移植与调优 · 10★",
+         "url": "https://github.com/kael-odin/2080ti-22G-kvmem-qwen3.8-27B-256K-36.6toks"
       }
    ],
    "education": [
@@ -82,43 +87,39 @@
       {
          "school": "浙江大学",
          "degree": "理科试验班（竺可桢学院）",
-         "date": "2017.09 — 2019.06",
+         "date": "2015.09 — 2019.06",
          "note": "新生学习适应优秀学员；肄业后重新高考"
       }
    ],
    "skills": [
       {
-         "group": "测试",
+         "group": "大模型与 Agent",
          "items": [
-            "用例设计与缺陷管理（Teambition）",
-            "接口测试（Postman）",
-            "抓包分析（Charles / DevTools）",
-            "Web UI 自动化（Playwright + pytest）",
-            "SQL 数据校验",
-            "Python 测试脚本"
+            "llama.cpp / KVMem 源码移植与调参",
+            "GGUF 量化（IQ3_S / q8_0 KV）",
+            "MTP 投机解码 · 长上下文",
+            "FastGPT / RAG 知识库",
+            "MCP · Agent Skills · 插件生态"
          ]
       },
       {
-         "group": "AI 工程",
+         "group": "测试与质量",
          "items": [
-            "llama.cpp 私有化部署与调参",
-            "FastGPT / RAG 知识库",
-            "Prompt 工程",
-            "模型评测与选型",
-            "ComfyUI / Stable Diffusion / Midjourney"
+            "接口测试（Postman）与抓包（Charles / DevTools）",
+            "Web UI 自动化（Playwright + pytest）",
+            "SQL 数据一致性校验",
+            "DAST 安全测试 · 自动化巡检",
+            "缺陷全生命周期管理（Teambition）"
          ]
       },
       {
          "group": "开发",
          "items": [
-            "Python",
-            "Java",
-            "JavaScript / HTML / CSS",
-            "MySQL",
-            "微信小程序",
-            "Git",
-            "Linux",
-            "AI 编程工具（Copilot / Claude Code / Cursor）"
+            "Python · TypeScript / JavaScript · Java",
+            "React 19 · Next.js 16 · Vue · Node.js · Electron",
+            "FastAPI · MySQL / PostgreSQL / ClickHouse / Redis",
+            "Docker · Linux · Git · Nginx · Cloudflare",
+            "AI 编程工具（Claude Code / Codex / Cursor）"
          ]
       }
    ]

@@ -1,33 +1,33 @@
 {
    "name": "汤勇 Kael Odin",
-   "title": "AI Application Engineer / QA Engineer",
+   "title": "AI Application / Full-stack Engineer",
    "role": "QA Engineer",
    "employer": "Xuzhou Lingjiang Information Technology",
    "location": "Xuzhou, Jiangsu, China",
    "timezone": "Asia/Shanghai",
-   "intro": "QA engineering and AI adoption in parallel: full-cycle functional testing for three proxy/data-collection product lines (Thordata, CoreClaw, XSpark) with 300+ defects found and fixed; led llama.cpp private deployment, FastGPT enterprise knowledge base and model selection reviews. Open-source builder in my spare time.",
-   "role_label": "QA Engineer @ Lingjiang",
+   "intro": "In one year I grew from functional testing into the quality system for three proxy and data-collection product lines: a 108-endpoint test matrix, 83 documented API pitfalls, daily automated patrols, and 300+ defects driven to fix. I also make local LLMs actually run: llama.cpp source port, 262K context on a single 22GB GPU, FastGPT knowledge base. Open source: a 225-star research-skill ranking, a 163-star scraping guide, and a 43-star plugin marketplace.",
+   "role_label": "QA Engineer @ Lingjiang · AI & Full-stack",
    "headline": "Make it work first, explain it second.",
-   "availability": "Open to: AI adoption / QA engineering / automation / OSS",
+   "availability": "Open to: AI application / LLM engineering · full-stack / backend",
    "contact": {
       "github": "kael-odin"
    },
    "about": {
       "greeting": "👋 Hi, I am Tang Yong (Kael Odin).",
-      "current_role": "💼 QA Engineer @ Xuzhou Lingjiang: full-cycle testing for proxy & data-collection product lines, designing IP connectivity and interface stability test suites.",
-      "specialization": "🚀 AI adoption: llama.cpp private deployment & tuning, FastGPT enterprise knowledge base (RAG), LLM/Agent tool evaluation — AI support for 50+ colleagues.",
-      "education": "🎓 Started at Zhejiang University (Chu Kochen Honors College), re-took Gaokao, and finished a BEng in Intelligence Science & Technology at Jiangsu University while working part-time.",
+      "current_role": "💼 QA Engineer @ Xuzhou Lingjiang: functional, API, data-consistency, security and automation testing for Thordata, CoreClaw and XSpark; built the daily patrol and the issue ledger.",
+      "specialization": "🚀 LLM & agents: llama.cpp / KVMem source port and tuning, 262K long context, MTP speculative decoding, FastGPT knowledge base, MCP and Agent Skill tooling.",
+      "education": "🎓 Started at Zhejiang University (Chu Kochen Honors College), re-took Gaokao, and finished a BEng in Intelligence Science & Technology at Jiangsu University while working part-time. CET-4 / CET-6.",
       "competitive_programming": "🏆 Gaokao 660/750 (rank 1609 province-wide); mentored 100+ students; maintains auto-updating open-source projects on GitHub."
    },
    "impact": {
       "clients_served": "300+",
-      "clients_note": "defects found & fixed",
+      "clients_note": "defects found and driven to fix",
       "workloads_migrated": "50+",
-      "aws_accounts": "100+",
-      "security_controls": "2205",
-      "security_note": "prompts mirrored (zh/en)",
       "workloads_note": "colleagues supported with AI",
-      "aws_note": "students mentored"
+      "aws_accounts": "108",
+      "aws_note": "API endpoints in the test matrix",
+      "security_controls": "88",
+      "security_note": "issue ledger entries, 52 fixed or closed"
    },
    "languages": [
       {
@@ -36,7 +36,7 @@
       },
       {
          "name": "English",
-         "level": "CET-6 · reads technical docs"
+         "level": "CET-6 · reads technical docs and source"
       }
    ],
    "social_profiles": [

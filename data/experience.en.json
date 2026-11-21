@@ -4,19 +4,41 @@
          "id": 1,
          "date": "2025.11 - 至今",
          "title": "QA Engineer",
-         "position": "功能测试全流程",
+         "position": "Quality system for three product lines",
          "company": "Xuzhou Lingjiang Information Technology",
          "location": "Xuzhou, China",
-         "summary": "Full-cycle functional testing for Thordata (enterprise proxy & data collection, a Bright Data peer), CoreClaw (web scraping platform, an Apify peer) and XSpark (static ISP proxy): requirement review -> test design -> execution -> defect tracking -> regression.",
+         "summary": "Own quality for Thordata (enterprise proxy & data collection, a Bright Data peer), CoreClaw (web scraping platform, an Apify peer) and XSpark (static ISP proxy): requirement review -> test design -> execution -> defect tracking -> regression. Drove 300+ defects to fix and turned repeated checks into a daily automated patrol.",
          "projects": [
             {
-               "name": "Specialized test suites for proxy & scraping",
+               "name": "Quality system: 108-endpoint matrix + daily patrol",
                "date": "2025.11 - 至今",
                "description": {
-                  "1": "Designed IP connectivity/latency, session persistence & rotation, scraping success rate & delivery accuracy, HTTP(S)/SOCKS5 multi-protocol test suites.",
-                  "2": "Combined API testing (Postman + traffic analysis), Playwright UI automation and SQL data validation; 300+ defects found and driven to fix."
+                  "1": "Built a verified matrix of 108 API endpoints and documented 83 API pitfalls (success codes, auth headers, field semantics) so the next person does not repeat the discovery.",
+                  "2": "Built a daily patrol with 21 automated plus 16 browser checks, delivering a DingTalk report to owners each workday; the issue ledger holds 88 entries with 52 fixed or closed."
                },
-               "skills": ["Playwright", "Postman", "Python", "SQL", "Charles"],
+               "skills": ["Playwright", "Postman", "Python", "SQL", "Charles", "DAST"],
+               "link": "",
+               "linkLabel": ""
+            },
+            {
+               "name": "Money paths and data consistency",
+               "date": "2026.03 - 至今",
+               "description": {
+                  "1": "Reconciled 480 shared orders between CRM and admin, both sides matching at CNY 3,267; found 104 orders never pushed and the paid-amount field lost end to end (P0/P1).",
+                  "2": "Checked 13 coupon invoices one by one and paid for real to verify; after the stock-lock fix, three accounts racing for the same stock produced no oversell."
+               },
+               "skills": ["MySQL", "ClickHouse", "SQL reconciliation", "API testing"],
+               "link": "",
+               "linkLabel": ""
+            },
+            {
+               "name": "Public Open API full production acceptance",
+               "date": "2026.11",
+               "description": {
+                  "1": "14 documented endpoints with a real wallet payment, covering positive, negative, boundary, concurrency and security cases: 0 P0/P1 found.",
+                  "2": "Delivered a re-runnable suite and a merged OpenAPI spec, and drove doc fixes for auth headers and error codes."
+               },
+               "skills": ["OpenAPI", "Python", "API testing", "Rate limiting"],
                "link": "",
                "linkLabel": ""
             },
@@ -24,16 +46,10 @@
                "name": "Enterprise AI infra: llama.cpp + FastGPT",
                "date": "2025.11 - 至今",
                "description": {
-                  "1": "Deployed LLMs locally with llama.cpp and tuned inference params (quantization, context, concurrency); built the company knowledge base on FastGPT with document cleaning, chunking and retrieval tuning.",
+                  "1": "Deployed LLMs locally with llama.cpp and tuned inference (quantization, context, concurrency, KV cache); built the company knowledge base on FastGPT with document cleaning, chunking and retrieval tuning.",
                   "2": "Established model/Agent tool evaluation methodology; ongoing AI support for 50+ colleagues."
                },
-               "skills": [
-                  "llama.cpp",
-                  "FastGPT",
-                  "RAG",
-                  "模型评测",
-                  "Prompt 工程"
-               ],
+               "skills": ["llama.cpp", "FastGPT", "RAG", "Model evaluation", "Prompt engineering"],
                "link": "",
                "linkLabel": ""
             }
@@ -56,44 +72,68 @@
                   "1": "Coded and tested the user info module (Java: registration/login/user management); joined requirement analysis and bug-fix verification.",
                   "2": "My first real engineering practice: moving real business workflows into a system."
                },
-               "skills": ["Java", "MySQL", "需求分析"],
+               "skills": ["Java", "MySQL", "Requirement analysis"],
                "link": "",
                "linkLabel": ""
             }
-         ]
+         ],
+         "skills": ["Java", "MySQL", "WeChat Mini Program"]
       },
       {
          "id": 3,
          "date": "2024 - 至今",
-         "title": "Independent Open Source (side)",
+         "title": "Independent Open Source",
          "position": "持续输出",
          "company": "GitHub · kael-odin",
-         "location": "中国 · 远程",
+         "location": "China · Remote",
          "summary": "Turning lessons learned into open-source projects and automation pipelines; several repos update daily via GitHub Actions at zero server cost.",
          "projects": [
             {
-               "name": "awesome-academic-research-skills · 学术 Skill 每日榜（110+★）",
+               "name": "awesome-academic-research-skills · daily research-skill ranking (225★)",
                "date": "2026.06 - 至今",
                "description": {
-                  "1": "面向中文用户的学术论文与科研 Agent Skill 排行榜：自动搜索、过滤并排名 GitHub 上的 Claude Code / Codex / OpenCode 科研 Skill。",
-                  "2": "从选题、榜单流水线到中文呈现全链路自研，每日自动更新。"
+                  "1": "A daily ranking of academic and research Agent Skills for Chinese users: automatically searches, filters and ranks research-skill repos built for Claude Code / Codex / OpenCode.",
+                  "2": "Topic selection, ranking pipeline and Chinese presentation are all self-built; updated daily, 225 stars."
                },
-               "skills": ["JavaScript", "GitHub Actions", "自动化榜单"],
+               "skills": ["Python", "GitHub Actions", "Automation"],
                "link": "https://github.com/kael-odin/awesome-academic-research-skills",
-               "linkLabel": "仓库"
+               "linkLabel": "Repo"
             },
             {
-               "name": "prompts-chat-zh · 提示词中文镜像（2205 条）",
+               "name": "Amazon scraping anti-bot guide · official Thordata repo (163★)",
+               "date": "2026.02 - 至今",
+               "description": {
+                  "1": "An official Thordata guide I created and maintain: CAPTCHA detection and request strategy for Amazon scraping, plus Scraper API and Python SDK usage.",
+                  "2": "163 stars; it is the content entry point for the Web Scraper product."
+               },
+               "skills": ["Python", "Web Scraping", "Anti-bot", "Technical writing"],
+               "link": "https://github.com/Thordata/how-to-bypass-amazon-captcha-when-scraping",
+               "linkLabel": "Repo"
+            },
+            {
+               "name": "codex-plugins-zh · plugin marketplace in Chinese (43★)",
+               "date": "2026.10 - 至今",
+               "description": {
+                  "1": "Auto-syncs the official Codex plugin repo, lossless Chinese localization (diff-verifiable), daily updates and a visual navigation site.",
+                  "2": "The same mechanism powers claude-plugins-zh and zcode-plugins-zh."
+               },
+               "skills": ["JavaScript", "i18n", "GitHub Actions"],
+               "link": "https://github.com/kael-odin/codex-plugins-zh",
+               "linkLabel": "Repo"
+            },
+            {
+               "name": "2080ti 22G · 262K long-context local inference (10★)",
                "date": "2026.09 - 至今",
                "description": {
-                  "1": "prompts.chat 的非官方简体中文镜像：2205 条公开提示词全部译成中文，中英对照、全文搜索、一键复制。",
-                  "2": "Astro 静态站 + 增量翻译流水线，部署在 GitHub Pages。"
+                  "1": "27B model at 262K context and 36.6 tok/s on a single RTX 2080 Ti 22G: Windows / sm_75 port, MTP speculative decoding, q8_0 KV cache.",
+                  "2": "Ships a complete, commit-locked reproduction chain."
                },
-               "skills": ["Astro", "i18n", "GitHub Pages"],
-               "link": "https://github.com/kael-odin/prompts-chat-zh",
-               "linkLabel": "仓库"
+               "skills": ["llama.cpp", "CUDA", "KV cache", "Quantization"],
+               "link": "https://github.com/kael-odin/2080ti-22G-kvmem-qwen3.8-27B-256K-36.6toks",
+               "linkLabel": "Repo"
             }
-         ]
+         ],
+         "skills": ["Python", "TypeScript", "GitHub Actions", "OSS maintenance"]
       }
    ],
    "positions_of_responsibility": [
@@ -101,20 +141,14 @@
          "date": "2025 - present",
          "title": "Open Source Contributor",
          "position": "Upstream contributions",
-         "company": "NousResearch Hermes Agent · Thordata SDKs",
+         "company": "NousResearch Hermes Agent · Thordata SDKs · Cherry Studio",
          "location": "Remote, China",
-         "summary": "Filing issues and PRs upstream: 2 PRs to the official NousResearch Hermes Agent repo (browser subprocess env passthrough; UTF-8 output from skills_sync on non-UTF-8 Windows locales) and multiple PRs across Thordata official SDK repos.",
+         "summary": "34 pull requests upstream: browser env passthrough and Windows UTF-8 fixes in Hermes Agent; API alignment, ESM fixes, CI and PyPI publishing in the official Thordata Python / JS SDKs, spec and cookbook; a connection-check fix in Cherry Studio.",
          "description": {
             "1": "Hermes Agent (NousResearch): #63693 fix(browser) env passthrough; #54866 fix(install) UTF-8 on Windows.",
-            "2": "Thordata official SDKs (js/python/spec/cookbook): spec alignment, ESM fixes, offline CI tests, README engine guidance."
+            "2": "Thordata SDKs (python/js/spec/cookbook): spec alignment, ESM fixes, offline CI tests, PyPI Trusted Publishing."
          },
-         "skills": [
-            "Open Source",
-            "Python",
-            "JavaScript",
-            "CI/CD",
-            "Code Review"
-         ],
+         "skills": ["Open Source", "Python", "JavaScript", "CI/CD", "Code Review"],
          "id": 1
       },
       {

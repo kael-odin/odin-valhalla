@@ -68,6 +68,8 @@ const COVER_BY_ID: Record<number, ProjectCover> = {
    4: { kind: "scene", Scene: MlScene }, // Another Side Project
    5: { kind: "scene", Scene: GameScene, variant: "snake" }, // One More Experiment
    6: { kind: "scene", Scene: DocsScene, variant: "list" }, // Your Open-Source Tool or Guide
+   7: { kind: "scene", Scene: WebAppScene, variant: "social" }, // Amadeus-Agent
+   8: { kind: "scene", Scene: DocsScene, variant: "list" }, // odin-heim
 };
 
 export const getProjectCover = (

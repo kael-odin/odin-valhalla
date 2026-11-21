@@ -117,15 +117,15 @@ const validateEntityArray = (items, path, requiredFields) => {
    }
 };
 
-const personal = loadJson("data/personal.json");
+const personal = loadJson("data/personal.zh.json");
 const personalZh = loadJson("data/personal.zh.json");
 const personalEn = loadJson("data/personal.en.json");
-const education = loadJson("data/education.json");
-const experience = loadJson("data/experience.json");
+const education = loadJson("data/education.zh.json");
+const experience = loadJson("data/experience.zh.json");
 const skills = loadJson("data/skills.json");
-const services = loadJson("data/services.json");
-const projects = loadJson("data/projects.json");
-const achievements = loadJson("data/achievements.json");
+const services = loadJson("data/services.zh.json");
+const projects = loadJson("data/projects.zh.json");
+const achievements = loadJson("data/achievements.zh.json");
 const experienceEn = loadJson("data/experience.en.json");
 const educationEn = loadJson("data/education.en.json");
 const servicesEn = loadJson("data/services.en.json");
