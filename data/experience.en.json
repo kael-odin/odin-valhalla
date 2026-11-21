@@ -16,7 +16,14 @@
                   "1": "Built a verified matrix of 108 API endpoints and documented 83 API pitfalls (success codes, auth headers, field semantics) so the next person does not repeat the discovery.",
                   "2": "Built a daily patrol with 21 automated plus 16 browser checks, delivering a DingTalk report to owners each workday; the issue ledger holds 88 entries with 52 fixed or closed."
                },
-               "skills": ["Playwright", "Postman", "Python", "SQL", "Charles", "DAST"],
+               "skills": [
+                  "Playwright",
+                  "Postman",
+                  "Python",
+                  "SQL",
+                  "Charles",
+                  "DAST"
+               ],
                "link": "",
                "linkLabel": ""
             },
@@ -27,7 +34,12 @@
                   "1": "Reconciled 480 shared orders between CRM and admin, both sides matching at CNY 3,267; found 104 orders never pushed and the paid-amount field lost end to end (P0/P1).",
                   "2": "Checked 13 coupon invoices one by one and paid for real to verify; after the stock-lock fix, three accounts racing for the same stock produced no oversell."
                },
-               "skills": ["MySQL", "ClickHouse", "SQL reconciliation", "API testing"],
+               "skills": [
+                  "MySQL",
+                  "ClickHouse",
+                  "SQL reconciliation",
+                  "API testing"
+               ],
                "link": "",
                "linkLabel": ""
             },
@@ -49,7 +61,13 @@
                   "1": "Deployed LLMs locally with llama.cpp and tuned inference (quantization, context, concurrency, KV cache); built the company knowledge base on FastGPT with document cleaning, chunking and retrieval tuning.",
                   "2": "Established model/Agent tool evaluation methodology; ongoing AI support for 50+ colleagues."
                },
-               "skills": ["llama.cpp", "FastGPT", "RAG", "Model evaluation", "Prompt engineering"],
+               "skills": [
+                  "llama.cpp",
+                  "FastGPT",
+                  "RAG",
+                  "Model evaluation",
+                  "Prompt engineering"
+               ],
                "link": "",
                "linkLabel": ""
             }
@@ -106,7 +124,12 @@
                   "1": "An official Thordata guide I created and maintain: CAPTCHA detection and request strategy for Amazon scraping, plus Scraper API and Python SDK usage.",
                   "2": "163 stars; it is the content entry point for the Web Scraper product."
                },
-               "skills": ["Python", "Web Scraping", "Anti-bot", "Technical writing"],
+               "skills": [
+                  "Python",
+                  "Web Scraping",
+                  "Anti-bot",
+                  "Technical writing"
+               ],
                "link": "https://github.com/Thordata/how-to-bypass-amazon-captcha-when-scraping",
                "linkLabel": "Repo"
             },
@@ -148,7 +171,13 @@
             "1": "Hermes Agent (NousResearch): #63693 fix(browser) env passthrough; #54866 fix(install) UTF-8 on Windows.",
             "2": "Thordata SDKs (python/js/spec/cookbook): spec alignment, ESM fixes, offline CI tests, PyPI Trusted Publishing."
          },
-         "skills": ["Open Source", "Python", "JavaScript", "CI/CD", "Code Review"],
+         "skills": [
+            "Open Source",
+            "Python",
+            "JavaScript",
+            "CI/CD",
+            "Code Review"
+         ],
          "id": 1
       },
       {

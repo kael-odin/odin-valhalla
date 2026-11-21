@@ -8,8 +8,23 @@
       "Electron",
       "WeChat Mini Programs"
    ],
-   "backend": ["FastAPI", "Node.js", "MySQL", "PostgreSQL", "ClickHouse", "Redis"],
-   "cloud_devops": ["Docker", "Linux", "Git", "GitHub Actions", "Nginx", "Cloudflare", "SSH"],
+   "backend": [
+      "FastAPI",
+      "Node.js",
+      "MySQL",
+      "PostgreSQL",
+      "ClickHouse",
+      "Redis"
+   ],
+   "cloud_devops": [
+      "Docker",
+      "Linux",
+      "Git",
+      "GitHub Actions",
+      "Nginx",
+      "Cloudflare",
+      "SSH"
+   ],
    "ai_ml": [
       "llama.cpp / KVMem source port & tuning",
       "GGUF quantization (IQ3_S, q8_0 KV)",

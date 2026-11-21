@@ -28,7 +28,12 @@
          "title": "Amazon scraping anti-bot guide · official Thordata repo (163★)",
          "description": "An official Thordata guide I created and maintain: CAPTCHA detection and request strategy for Amazon scraping, with runnable Scraper API and Python SDK examples. 163 stars; it is the content entry point for the Web Scraper product.",
          "date": "Feb 2026",
-         "tools_tech": ["Python", "Web Scraping", "Anti-bot", "Technical writing"],
+         "tools_tech": [
+            "Python",
+            "Web Scraping",
+            "Anti-bot",
+            "Technical writing"
+         ],
          "features": [
             "End-to-end breakdown of CAPTCHA detection and request strategy",
             "Runnable Scraper API and Python SDK examples",

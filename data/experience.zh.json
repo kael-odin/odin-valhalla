@@ -16,7 +16,14 @@
                   "1": "建立 108 个接口端点的实测底表与 83 条「接口坑位」口径（成功码、鉴权头、字段语义差异），新人接手不用再踩一遍。",
                   "2": "自建每日巡检 21 项自动 + 16 项浏览器检查，工作日一期、钉钉日报直达责任人；结构化问题台账 88 条，已修复 / 关闭 52 条。"
                },
-               "skills": ["Playwright", "Postman", "Python", "SQL", "Charles", "DAST"],
+               "skills": [
+                  "Playwright",
+                  "Postman",
+                  "Python",
+                  "SQL",
+                  "Charles",
+                  "DAST"
+               ],
                "link": "",
                "linkLabel": ""
             },
@@ -49,7 +56,13 @@
                   "1": "完成大模型本地化部署与推理参数调优（量化等级、上下文、并发、KV 缓存）；基于 FastGPT 搭建企业知识库：文档清洗入库、切片与检索调优。",
                   "2": "建立模型 / Agent 工具选型评测方法，输出选型结论作为团队引入依据，为 50+ 名同事提供常态化 AI 支持。"
                },
-               "skills": ["llama.cpp", "FastGPT", "RAG", "模型评测", "Prompt 工程"],
+               "skills": [
+                  "llama.cpp",
+                  "FastGPT",
+                  "RAG",
+                  "模型评测",
+                  "Prompt 工程"
+               ],
                "link": "",
                "linkLabel": ""
             }
@@ -148,7 +161,13 @@
             "1": "Hermes Agent (NousResearch): #63693 fix(browser) env passthrough; #54866 fix(install) UTF-8 on Windows.",
             "2": "Thordata SDKs (python/js/spec/cookbook): spec alignment, ESM fixes, offline CI tests, PyPI Trusted Publishing."
          },
-         "skills": ["Open Source", "Python", "JavaScript", "CI/CD", "Code Review"],
+         "skills": [
+            "Open Source",
+            "Python",
+            "JavaScript",
+            "CI/CD",
+            "Code Review"
+         ],
          "id": 1
       },
       {
