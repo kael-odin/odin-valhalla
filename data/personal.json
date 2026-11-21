@@ -1,33 +1,33 @@
 {
    "name": "汤勇 Kael Odin",
-   "title": "AI 应用工程师 / 测试工程师",
+   "title": "AI 应用 / 全栈工程师",
    "role": "测试工程师",
    "employer": "徐州灵匠信息科技有限公司",
    "location": "江苏 · 徐州",
    "timezone": "Asia/Shanghai",
-   "intro": "测试工程与 AI 落地双线并进：负责 Thordata、CoreClaw、XSpark 三条代理/数据采集产品线的测试全流程，累计发现并推动修复缺陷 300+；主导 llama.cpp 私有化部署、FastGPT 企业知识库与模型选型评测。业余持续开源：学术 Skill 每日榜、提示词中文镜像等。",
-   "role_label": "测试工程师 @ 灵匠科技",
+   "intro": "一年内从功能测试做到三条代理/数据采集产品线的质量体系：108 个接口实测底表、83 条接口坑位、每日自动巡检，累计推动修复 300+ 缺陷。同时把大模型真正跑起来：llama.cpp 源码移植、单卡 22G 跑 262K 上下文、FastGPT 企业知识库。业余开源：225★ 科研 Skill 榜单、163★ 采集反爬指南、43★ 插件中文市场。",
+   "role_label": "测试工程师 @ 灵匠 · AI 应用与全栈",
    "headline": "先跑通，再讲清楚。",
-   "availability": "欢迎交流：AI 落地 / 测试工程 / 自动化 / 开源协作",
+   "availability": "求职中：AI 应用 / 大模型工程 · 全栈 / 后端",
    "contact": {
       "github": "kael-odin"
    },
    "about": {
       "greeting": "👋 你好，我是汤勇（Kael Odin）。",
-      "current_role": "💼 测试工程师 @ 徐州灵匠信息科技：代理与数据采集产品线的功能测试全流程，IP 连通率、接口稳定性等专项测试的设计者。",
-      "specialization": "🚀 AI 落地：llama.cpp 私有化部署与调优、FastGPT 企业知识库（RAG）、大模型与 Agent 工具的选型评测，为 50+ 名同事提供 AI 支持。",
-      "education": "🎓 浙江大学理科试验班（竺可桢学院）起步，肄业后重新高考，半工半读完成江苏大学智能科学与技术（AI 方向）本科。",
-      "competitive_programming": "🏆 高考 660 分（全省 1609 名）；累计带教学生 100+ 名；GitHub 上长期维护每日自动更新的开源项目。"
+      "current_role": "💼 测试工程师 @ 徐州灵匠信息科技：负责 Thordata、CoreClaw、XSpark 三条产品线的功能、接口、数据一致性、安全与自动化，自建每日巡检与问题台账。",
+      "specialization": "🚀 大模型与 Agent：llama.cpp / KVMem 源码移植与调优、262K 长上下文、MTP 投机解码、FastGPT 知识库、MCP 与 Agent Skill 工具链。",
+      "education": "🎓 浙江大学理科试验班（竺可桢学院）起步，肄业后重新高考，半工半读完成江苏大学智能科学与技术（AI 方向）本科；CET-4 / CET-6。",
+      "competitive_programming": "🏆 高考 660 分（全省 1609 名）；教培带教 100+ 学生；GitHub 长期维护每日自动更新的开源项目。"
    },
    "impact": {
       "clients_served": "300+",
-      "clients_note": "累计发现并推动修复缺陷",
+      "clients_note": "累计推动修复缺陷",
       "workloads_migrated": "50+",
-      "aws_accounts": "100+",
-      "security_controls": "2205",
-      "security_note": "条提示词中英镜像",
       "workloads_note": "名同事获得 AI 支持",
-      "aws_note": "名学生（教培创业）"
+      "aws_accounts": "108",
+      "aws_note": "个接口建立实测底表",
+      "security_controls": "88",
+      "security_note": "条问题台账，修复关闭 52 条"
    },
    "languages": [
       {
@@ -36,7 +36,7 @@
       },
       {
          "name": "English",
-         "level": "CET-6 · 可阅读英文技术文档"
+         "level": "CET-6 · 可阅读英文技术文档与源码"
       }
    ],
    "social_profiles": [

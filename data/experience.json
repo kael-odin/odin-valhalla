@@ -4,28 +4,57 @@
          "id": 1,
          "date": "2025.11 - 至今",
          "title": "测试工程师",
-         "position": "功能测试全流程",
+         "position": "三条产品线的质量体系",
          "company": "徐州灵匠信息科技有限公司",
          "location": "江苏 · 徐州",
-         "summary": "负责 Thordata（企业级代理与数据采集服务，对标 Bright Data）、CoreClaw（网页数据采集平台，对标 Apify）、XSpark（静态 ISP 代理）三条产品线的功能测试全流程：需求评审 → 用例设计 → 执行 → 缺陷跟踪 → 回归验证。",
+         "summary": "负责 Thordata（企业级代理与数据采集，对标 Bright Data）、CoreClaw（网页数据采集平台，对标 Apify）、XSpark（静态 ISP 代理）三条产品线：需求评审 → 用例设计 → 执行 → 缺陷跟踪 → 回归，累计推动修复 300+ 缺陷，并把重复检查做成每日自动巡检。",
          "projects": [
             {
-               "name": "代理与采集业务专项测试体系",
+               "name": "质量体系：108 个接口底表 + 每日自动巡检",
                "date": "2025.11 - 至今",
                "description": {
-                  "1": "设计 IP 连通率与响应延迟、会话保持与轮换正确性、采集任务成功率与数据交付准确性、HTTP(S)/SOCKS5 多协议兼容等专项测试。",
-                  "2": "结合接口测试（Postman + 抓包分析）、Web UI 自动化（Playwright + pytest）与 SQL 数据核对，沉淀可复用用例与脚本，累计发现并推动修复缺陷 300+。"
+                  "1": "建立 108 个接口端点的实测底表与 83 条「接口坑位」口径（成功码、鉴权头、字段语义差异），新人接手不用再踩一遍。",
+                  "2": "自建每日巡检 21 项自动 + 16 项浏览器检查，工作日一期、钉钉日报直达责任人；结构化问题台账 88 条，已修复 / 关闭 52 条。"
                },
-               "skills": ["Playwright", "Postman", "Python", "SQL", "Charles"],
+               "skills": [
+                  "Playwright",
+                  "Postman",
+                  "Python",
+                  "SQL",
+                  "Charles",
+                  "DAST"
+               ],
                "link": "",
                "linkLabel": ""
             },
             {
-               "name": "企业 AI 基础设施：大模型私有化部署 + FastGPT 知识库",
+               "name": "资金链路与数据一致性验证",
+               "date": "2026.03 - 至今",
+               "description": {
+                  "1": "CRM ↔ 后台全量对账 480 笔共同订单、双边金额 ¥3,267 完全一致；查出 104 笔订单推送失败未重试、充值「实付金额」全链路丢失等 P0/P1。",
+                  "2": "优惠券计费 13 单逐单核对并用真实支付验证；库存锁定修复后三账号并发抢同一库存无超卖。"
+               },
+               "skills": ["MySQL", "ClickHouse", "SQL 对账", "接口测试"],
+               "link": "",
+               "linkLabel": ""
+            },
+            {
+               "name": "公共开放 API 正式全量交付",
+               "date": "2026.11",
+               "description": {
+                  "1": "14 个文档化接口 + 真实钱包支付，覆盖正向、负向、边界、并发、安全用例，结论 0 个 P0/P1。",
+                  "2": "交付可复跑测试套件与合并 OpenAPI spec，推动文档修正鉴权头与错误口径。"
+               },
+               "skills": ["OpenAPI", "Python", "接口测试", "限流"],
+               "link": "",
+               "linkLabel": ""
+            },
+            {
+               "name": "企业 AI 基础设施：llama.cpp 私有化 + FastGPT",
                "date": "2025.11 - 至今",
                "description": {
-                  "1": "基于 llama.cpp 完成大模型本地化部署与推理参数调优（量化等级、上下文、并发配置）；基于 FastGPT 搭建企业专属知识库：文档清洗入库、切片与检索调优。",
-                  "2": "建立模型/工具选型评测方法：横向对比主流大模型与 Agent 产品，输出选型结论作为团队引入依据，为 50+ 名同事提供常态化 AI 支持。"
+                  "1": "完成大模型本地化部署与推理参数调优（量化等级、上下文、并发、KV 缓存）；基于 FastGPT 搭建企业知识库：文档清洗入库、切片与检索调优。",
+                  "2": "建立模型 / Agent 工具选型评测方法，输出选型结论作为团队引入依据，为 50+ 名同事提供常态化 AI 支持。"
                },
                "skills": [
                   "llama.cpp",
@@ -37,7 +66,8 @@
                "link": "",
                "linkLabel": ""
             }
-         ]
+         ],
+         "skills": ["Playwright", "Postman", "Python", "SQL", "Charles"]
       },
       {
          "id": 2,
@@ -46,86 +76,116 @@
          "position": "半工半读",
          "company": "教培创业（杭州 / 南京 / 镇江）",
          "location": "杭州 / 南京 / 镇江",
-         "summary": "在校期间与杭州神舟家教、南京沄汐教育合作开展初高中教培，累计带教学生 100+ 名；2025 年毕业后全职投入教培创业，独立开发微信小程序支撑业务运转。",
+         "summary": "在校期间与杭州神舟家教、南京沄汐教育合作开展初高中教培，累计带教学生 100+ 名；2025 年毕业后全职投入教培创业，独立开发微信小程序支撑业务运转，随后主动收缩转向 AI 方向。",
          "projects": [
             {
                "name": "沄汐教育内部管理系统 · 用户信息管理模块",
                "date": "2022 - 2023",
                "description": {
-                  "1": "完成用户信息管理模块（Java：注册/登录/用户管理）的编码与测试，并参与需求分析、bug 修复验证。",
-                  "2": "这是从「会用」到「会做」的第一段工程实践：把教培业务里的真实流程搬进系统。"
+                  "1": "完成用户信息管理模块（Java：注册 / 登录 / 用户管理）的编码与测试，参与需求分析与 bug 修复验证。",
+                  "2": "第一次把真实业务流程搬进系统，也是后来做测试的起点。"
                },
                "skills": ["Java", "MySQL", "需求分析"],
                "link": "",
                "linkLabel": ""
             }
-         ]
+         ],
+         "skills": ["Java", "MySQL", "微信小程序"]
       },
       {
          "id": 3,
          "date": "2024 - 至今",
-         "title": "独立开源（业余）",
+         "title": "独立开源",
          "position": "持续输出",
          "company": "GitHub · kael-odin",
          "location": "中国 · 远程",
-         "summary": "把踩坑过程沉淀成开源项目与自动化流水线：学术 Skill 每日榜、提示词中文镜像站、代理池维护等，多个项目靠 GitHub Actions 每日自动更新、零服务器成本。",
+         "summary": "把踩过的坑做成开源项目与自动化流水线：多个仓库靠 GitHub Actions 每日更新，零服务器成本。",
          "projects": [
             {
-               "name": "awesome-academic-research-skills · 学术 Skill 每日榜（110+★）",
+               "name": "awesome-academic-research-skills · 学术 Skill 每日榜（225★）",
                "date": "2026.06 - 至今",
                "description": {
                   "1": "面向中文用户的学术论文与科研 Agent Skill 排行榜：自动搜索、过滤并排名 GitHub 上的 Claude Code / Codex / OpenCode 科研 Skill。",
-                  "2": "从选题、榜单流水线到中文呈现全链路自研，每日自动更新。"
+                  "2": "从选题、榜单流水线到中文呈现全链路自研，每日自动更新，已获 225 star。"
                },
-               "skills": ["JavaScript", "GitHub Actions", "自动化榜单"],
+               "skills": ["Python", "GitHub Actions", "自动化榜单"],
                "link": "https://github.com/kael-odin/awesome-academic-research-skills",
                "linkLabel": "仓库"
             },
             {
-               "name": "prompts-chat-zh · 提示词中文镜像（2205 条）",
+               "name": "Amazon 采集反爬指南 · Thordata 官方仓库（163★）",
+               "date": "2026.02 - 至今",
+               "description": {
+                  "1": "由我创建并维护的 Thordata 官方指南：Amazon 采集中的验证码识别、请求策略与 Scraper API / Python SDK 用法。",
+                  "2": "已获 163 star，是官网 Web Scraper 产品的内容入口。"
+               },
+               "skills": ["Python", "Web Scraping", "Anti-bot", "技术写作"],
+               "link": "https://github.com/Thordata/how-to-bypass-amazon-captcha-when-scraping",
+               "linkLabel": "仓库"
+            },
+            {
+               "name": "codex-plugins-zh · 插件中文市场（43★）",
+               "date": "2026.10 - 至今",
+               "description": {
+                  "1": "Codex 官方插件仓库自动同步、无损汉化（差异机器可证）、每日更新与可视化中文导航站。",
+                  "2": "同一套机制复用到 claude-plugins-zh 与 zcode-plugins-zh。"
+               },
+               "skills": ["JavaScript", "i18n", "GitHub Actions"],
+               "link": "https://github.com/kael-odin/codex-plugins-zh",
+               "linkLabel": "仓库"
+            },
+            {
+               "name": "2080ti 22G · 262K 长上下文本地推理（10★）",
                "date": "2026.09 - 至今",
                "description": {
-                  "1": "prompts.chat 的非官方简体中文镜像：2205 条公开提示词全部译成中文，中英对照、全文搜索、一键复制。",
-                  "2": "Astro 静态站 + 增量翻译流水线，部署在 GitHub Pages。"
+                  "1": "在单张 RTX 2080 Ti 22G 上把 27B 模型跑到 262K 上下文、36.6 tok/s：Windows / sm_75 移植、MTP 投机解码、q8_0 KV 缓存。",
+                  "2": "含完整复现链与 commit 锁定，别人照着就能跑。"
                },
-               "skills": ["Astro", "i18n", "GitHub Pages"],
-               "link": "https://github.com/kael-odin/prompts-chat-zh",
+               "skills": ["llama.cpp", "CUDA", "KV Cache", "量化"],
+               "link": "https://github.com/kael-odin/2080ti-22G-kvmem-qwen3.8-27B-256K-36.6toks",
                "linkLabel": "仓库"
             }
-         ]
+         ],
+         "skills": ["Python", "TypeScript", "GitHub Actions", "开源维护"]
       }
    ],
    "positions_of_responsibility": [
       {
-         "date": "2025 - 至今",
-         "title": "开源贡献者",
-         "position": "向上游回馈",
-         "company": "NousResearch Hermes Agent · Thordata SDK 等",
-         "location": "中国 · 远程",
-         "summary": "给开源项目提 issue/PR 并推动修复：向 NousResearch Hermes Agent 官方仓库提交 2 个 PR（浏览器子进程环境变量透传、Windows 非 UTF-8 环境 skills_sync 乱码修复），并向 Thordata 官方 SDK 仓库提交多个 PR（SDK 规范、ESM 兼容、CI 加固与文档修正）。",
+         "date": "2025 - present",
+         "title": "Open Source Contributor",
+         "position": "Upstream contributions",
+         "company": "NousResearch Hermes Agent · Thordata SDKs · Cherry Studio",
+         "location": "Remote, China",
+         "summary": "累计提交 34 个 Pull Request：Hermes Agent 的浏览器环境透传与 Windows UTF-8 修复；Thordata 官方 Python / JS SDK、spec 与 cookbook 的接口对齐、ESM 修复、CI 与 PyPI 发布流程；Cherry Studio 连接检查修复。",
          "description": {
-            "1": "Hermes Agent（NousResearch 官方）：#63693 fix(browser) 环境变量透传；#54866 fix(install) Windows 多语言环境 UTF-8 输出。",
-            "2": "Thordata 官方 SDK（js/python/spec/cookbook 等）：API 规范校准、ESM 示例修复、CI 离线测试与 README 引擎推荐等。"
+            "1": "Hermes Agent (NousResearch): #63693 fix(browser) env passthrough; #54866 fix(install) UTF-8 on Windows.",
+            "2": "Thordata SDKs (python/js/spec/cookbook): spec alignment, ESM fixes, offline CI tests, PyPI Trusted Publishing."
          },
-         "skills": ["开源协作", "Python", "JavaScript", "CI/CD", "Code Review"],
+         "skills": [
+            "Open Source",
+            "Python",
+            "JavaScript",
+            "CI/CD",
+            "Code Review"
+         ],
          "id": 1
       },
       {
          "id": 2,
          "date": "2020 - 2025",
-         "title": "教培创业者",
+         "title": "Tutoring Startup Founder",
          "position": "创始人",
-         "org": "初高中课外辅导（杭州 / 南京 / 镇江）",
+         "org": "K-12 tutoring (Hangzhou / Nanjing / Zhenjiang)",
+         "description": {
+            "1": "与本地教育机构合作开展初高中教培，覆盖教学、招生与运营。",
+            "2": "判断 AI 方向成长更快，主动收缩业务转向互联网。"
+         },
          "link": "",
          "linkLabel": "",
-         "skills": ["教学运营", "招生管理", "微信小程序"],
-         "company": "初高中课外辅导（合作网点）",
-         "location": "杭州 / 南京 / 镇江",
-         "description": {
-            "1": "与杭州神舟家教、南京沄汐教育合作开展初高中教培，覆盖教学、招生与运营。",
-            "2": "综合判断后主动收缩业务，转向成长更快的互联网 AI 方向。"
-         },
-         "summary": "在校期间开始创业，2025 年毕业后全职投入；带教学生 100+ 名，并独立开发微信小程序支撑业务运转。"
+         "skills": ["Teaching ops", "Enrollment", "WeChat Mini Program"],
+         "company": "K-12 tutoring (partner locations)",
+         "location": "Hangzhou / Nanjing / Zhenjiang",
+         "summary": "在校期间开始教培创业，毕业后全职投入；累计带教 100+ 学生，运营靠自研微信小程序。"
       }
    ]
 }
